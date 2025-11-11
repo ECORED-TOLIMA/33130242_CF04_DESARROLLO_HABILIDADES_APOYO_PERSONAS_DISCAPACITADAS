@@ -110,9 +110,7 @@
               p.mb-0.text-bold Se trata de una garantía jurídica que protege el derecho a la accesibilidad como derecho humano, reconocido por:
           .row.justify-content-center.tarjeta--FBG06.tarjeta.p-4
             .col
-              ul.lista-ul
-                li 
-                  
+              ul.lista-ul              
                 li
                   ul
                     li 
@@ -133,7 +131,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.2	Principio de indivisibilidad
 
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center
       .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img.img-fluid(src="@/assets/curso/temas/tema1/img13.svg" alt="Imagen decorativa")
