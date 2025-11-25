@@ -17,7 +17,7 @@
           .col-2.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema3/img2.svg', alt='Imagen decorativa')
-          .col-10
+          .col-lg-10
             p.mb-0(data-aos="fade-left") El propósito de la caja de herramientas es ofrecer a las personas facilitadoras un conjunto de estrategias, recursos y acciones afirmativas que favorezcan la obtención de información, la comunicación y el vínculo con la persona, garantizando su acceso al servicio de valoración de apoyos. Este enfoque reconoce el derecho a la igualdad de condiciones y oportunidades y promueve la autonomía en la toma de decisiones durante todo el proceso.
 
     .row.justify-content-center.align-items-center.mb-4
@@ -39,7 +39,7 @@
           .col-lg-11
             p.mb-0(data-aos="fade-left") Los recursos y apoyos incluidos en la caja se presentan considerando tanto las generalidades como las particularidades de cada tipo de discapacidad. Su aplicación será validada e implementada con el consentimiento de la persona que participa en el proceso, reconociendo siempre sus habilidades, competencias y decisiones.
         .row.align-items-center.bloque-texto-c.color-primario-claro.p-3
-          .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
+          .col-lg-1.d-none.d-lg-block.p-0(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema3/img6.svg', alt='Imagen decorativa')
           .col-lg-11
@@ -52,8 +52,8 @@
     separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.1	Recursos especializados
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-9.col-8.order-2.order-lg-1(data-aos="fade-left")
+    .row.justify-content-center.align-items-center
+      .col-lg-9.col-12.order-2.order-lg-1(data-aos="fade-left")
         p La identificación y selección adecuada de recursos especializados es un componente esencial dentro de la caja de herramientas para la accesibilidad. Estos recursos permiten responder de manera precisa a las necesidades de cada persona con discapacidad, fortaleciendo su autonomía y facilitando la interacción, la comunicación y el acceso a la información. Su implementación busca garantizar condiciones de igualdad y equidad en los procesos de valoración de apoyos, contribuyendo a eliminar barreras y a promover la participación plena y efectiva en todos los entornos.
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Tecnologías y productos de apoyo")
@@ -181,7 +181,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -194,7 +194,7 @@
                         |  Adaptación de material auditivo y táctil.
                       li 
                         i.lista-ul__vineta
-                        |  Permitir el acceso a herramientas tiflotecnológicas
+                        |  Permitir el acceso a herramientas tiflotecnológicas.
                       li 
                         i.lista-ul__vineta
                         |  Señalización en braille.
@@ -207,7 +207,7 @@
                   td #[i Software] como lectores y magnificadores de pantalla (Jaws, Lupa, ZoomText, Orca, Magic, entre otros).
                   td Braille Macrotipo (letra en mayor tamaño y con tinta en contraste).
                   td Bastón guía para la orientación y la movilidad. Lentes o lupas.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img18.png', alt='Imagen decorativa')
@@ -264,7 +264,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -299,7 +299,7 @@
                         i.lista-ul__vineta
                         | Implantes cocleares o sistemas de frecuencia modulada, entre otros.
 
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa')
@@ -352,7 +352,7 @@
               p.mb-0.text-bold Aplicación útil para convertir texto en voz y viceversa; para subtítulos
               .row
                 .col-3
-                  a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_s')" target="_blank")
+                  a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_salvatto.Sordos&hl=es_CO')" target="_blank")
                     span Háblalo
                     i.fas.fa-file-code
       .row(titulo="Discapacidad física")
@@ -361,7 +361,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -378,7 +378,7 @@
                     p Prótesis, órtesis, sillas de ruedas, bastones, caminadores o muletas, entre otros. 
                     p.mb-0 En algunos casos requiere del apoyo de otra persona.
 
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img20.png', alt='Imagen decorativa')
@@ -386,31 +386,31 @@
               .titulo3.mb-4
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Para dirigirse a la persona, sitúese a su misma altura y delante de ella.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   |   Hablarle siempre a la persona, no a su acompañante.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   |   Si va a mover la silla de ruedas, debe advertirle, con anterioridad, de la maniobra que se va a realizar.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   |   La silla de ruedas es parte de su espacio personal, no se apoye ni la mueva sin su permiso.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   |   Asegúrese que las muletas, el bastón o cualquier tipo de tecnología de apoyo, estén al lado de la persona. No la retire sin pedirle permiso.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   |   Cuando la persona con discapacidad física, tenga además, un componente de dificultad para articular las palabras, se le pide que escriba o utilice una forma alternativa de comunicación como sintetizadores de voz u otra tecnología que ya utilice la persona y lleve consigo.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   |   Si es una persona de talla baja, ubique un banquito pequeño al lado de la silla para que se le facilite sentarse en esta.
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Asegúrese de ubicar los objetos a su altura
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Evite poner objetos que limiten su desplazamiento por el espacio.
 
@@ -430,7 +430,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -454,7 +454,7 @@
                     p.mb-0 Las personas de mayor complejidad no alcanzan la destreza de la lectura.
 
                   td No aplica
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img21.png', alt='Imagen decorativa')
@@ -508,7 +508,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -516,22 +516,22 @@
                 tr
                   td
                     ul.lista-ul  
-                      li 
+                      li
                         i.lista-ul__vineta
                         |   Utilizar texturas y materiales que estimulen los sentidos, y a través de estos recursos generar códigos de comunicación entre sí.
-                      li 
+                      li
                         i.lista-ul__vineta
                         |   Reconocimiento de emociones a través del lenguaje corporal.
-                      li 
+                      li
                         i.lista-ul__vineta
                         |   Las conductas disruptivas son la forma de expresar dolor, angustia, miedo y otros.
-                      li 
+                      li
                         i.lista-ul__vineta
                         |  Implementar el sentido del tacto y uso de la lengua de señas.
                   td Guía- intérprete.
                   td Guía- intérprete.
                   td Algunas personas pueden utilizar el bastón guía para la orientación y la movilidad. Lentes o lupas.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img22.png', alt='Imagen decorativa')
@@ -539,19 +539,19 @@
               .titulo3.mb-4
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Preguntar por el sistema comunicativo que la persona sordociega utiliza.   
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | La persona sordociega requiere que se le brinde información sobre lo que sucede en su entorno, a través de un guía- interprete.   
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Al relacionar se debe tocar suavemente su hombro o su brazo y decirle quién es antes de iniciar una conversación, incluso se vuelve a hacer después de una interrupción.    
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Debe saludar siempre y despedirse de ella cuando se retira.   
-                li 
+                li.mb--44
                   i.lista-ul__vineta
                   | Algunas personas tienen remanente visual y requieren que el interlocutor(a) se coloque enfrente de ellas, a la altura de sus ojos y muy cerca de su cara. 
               .titulo3.mb-3
@@ -569,7 +569,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -588,7 +588,7 @@
                   td Palabras impresas o manuscritas.
                   td Alcanzan la destreza de la lectura escrita o impresa.
                   td No aplica.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img23.png', alt='Imagen decorativa')
@@ -617,7 +617,7 @@
               p.text-bold 
               .row.mb-3
                 .col-3
-                  a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?i d=com.imagiration.aphasia')" target="_blank")
+                  a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=com.imagiration.aphasia&pli=1')" target="_blank")
                     span Aphasia
                     i.fas.fa-file-code
               
@@ -627,7 +627,7 @@
             table
               thead
                 tr
-                  th(style="width: 553px") Ajustes Razonables: tecnológicos, comunicativo, pedagógicos
+                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
                   th Medio de lectura
                   th Medio de escritura
                   th Productos de apoyo
@@ -639,7 +639,7 @@
                   td Según las discapacidades y necesidades de la persona y si hay alguna prevalencia en una de ellas.
                   td Según las discapacidades y necesidad es de la persona y si hay alguna prevalencia en una de ellas.
                   td Según las discapacidad y necesidades de la persona y si hay alguna prevalencia en una de ellas.
-          .row.justify-content-center.align-items-center.mb-5
+          .row.justify-content-center.align-items-center
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img24.png', alt='Imagen decorativa')
@@ -651,14 +651,15 @@
               .titulo3.mb-3
                 h5.mb-0 Enlace de acceso a las herramientas
               p.text-bold Utilizar las aplicaciones y programas según las discapacidades y necesidades de la persona.
+              
 
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 Ejemplo de aplicación de la caja de herramientas - Proceso de entrevista semiestructurada para la valoración de apoyos
     p.mb-4 Este ejemplo parte de la premisa de que ya se han identificado las necesidades específicas de la persona y se cuenta con orientaciones para la realización de la entrevista. En este caso, se trata de una persona con discapacidad intelectual en un nivel grave (según el DSM-5), con dificultades en la comunicación y la interacción. El objetivo es evaluar sus motivaciones y proyecto de vida.
     .row.justify-content-center.align-items-center.mb-4
       .col-10
-        .row.bloque-texto-c.color-primario.justify-content-center.align-items-center
-          .col-lg-1
+        .row.bloque-texto-c.color-primario.justify-content-center.align-items-center.p-2
+          .col-lg-1.p-0
             figure
               img(src='@/assets/curso/temas/tema3/img25.svg', alt='Imagen decorativa')
           .col-lg-11
@@ -670,8 +671,8 @@
               p.mb-0.pt-2 Cuando la persona no sabe leer ni escribir, pero comprende a través de estrategias visuales, se recomienda el uso de videos y pictogramas. Las imágenes y símbolos deben representar claramente la información que se desea obtener. Una herramienta útil para este propósito es Pictofacile.
     .row.justify-content-center.align-items-center.mb-4
       .col-10
-        .row.bloque-texto-c.color-primario.justify-content-center.align-items-center
-          .col-lg-1
+        .row.bloque-texto-c.color-primario.justify-content-center.align-items-center.p-2
+          .col-lg-1.p-0
             figure
               img(src='@/assets/curso/temas/tema3/img26.svg', alt='Imagen decorativa')
           .col-lg-11
@@ -683,8 +684,8 @@
               p.mb-0.pt-2 Para recoger la información necesaria durante la entrevista, se sugiere elaborar un listado de preguntas con lenguaje concreto y sencillo, acompañadas de imágenes o símbolos que representen cada pregunta y motiven a responder. Se recomienda utilizar papel bond, escribiendo una pregunta por hoja junto con su imagen correspondiente. Al presentar la hoja mientras se formula la pregunta de manera clara y pausada, se facilita la asociación entre el contenido verbal y visual, fortaleciendo la comprensión.
     .row.justify-content-center.align-items-center.mb-4
       .col-10
-        .row.bloque-texto-c.color-primario.justify-content-center.align-items-center
-          .col-lg-1
+        .row.bloque-texto-c.color-primario.justify-content-center.align-items-center.p-2
+          .col-lg-1.p-0
             figure
               img(src='@/assets/curso/temas/tema3/img27.svg', alt='Imagen decorativa')
           .col-lg-11
@@ -763,10 +764,10 @@
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img33_1.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img33_1.svg', alt='La imagen presenta varios elementos:Texto informativo: A la izquierda, hay un recuadro con texto. Describe la situación de María, una mujer de 82 años, sorda y pensionada, que ha entrado en un estado depresivo tras el fallecimiento de su hermano, de quien dependía. Su única red de apoyo es Carlina, una vecina de 85 años que está muy enferma. Personas en conversación: En el centro y a la derecha, se ven dos personas en un diálogo. Una mujer joven, con el pelo corto y vestida con una camiseta a rayas y una falda naranja, sostiene una taza de café y gesticula con la mano mientras sonríe. Frente a ella, un hombre con una camisa azul de manga larga y pantalones caqui también sonríe y gesticula con sus manos. Globos de diálogo: Sobre las personas, hay dos globos de diálogo. El de la mujer contiene la frase "Claro que sí, te comento", mientras que el del hombre pregunta "¿Podrías recordar un ejemplo relacionado con la valoración de apoyos?". Atmosfera y estado de ánimo: A pesar del difícil contexto que describe el texto sobre María, la imagen general transmite una atmósfera positiva y colaborativa. La conversación entre las dos personas parece ser amigable y enfocada en encontrar soluciones o ejemplos relacionados con la valoración de apoyos. Las expresiones sonrientes de ambos personajes sugieren un estado de ánimo optimista y dispuesto a ayudar. En general, la imagen combina una descripción de una situación desafiante con una representación visual de personas que buscan activamente formas de abordar y mejorar esa situación.')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img33.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img33.svg', alt='La imagen presenta varios elementos:Texto informativo: A la izquierda, hay un recuadro con texto. Describe la situación de María, una mujer de 82 años, sorda y pensionada, que ha entrado en un estado depresivo tras el fallecimiento de su hermano, de quien dependía. Su única red de apoyo es Carlina, una vecina de 85 años que está muy enferma. Personas en conversación: En el centro y a la derecha, se ven dos personas en un diálogo. Una mujer joven, con el pelo corto y vestida con una camiseta a rayas y una falda naranja, sostiene una taza de café y gesticula con la mano mientras sonríe. Frente a ella, un hombre con una camisa azul de manga larga y pantalones caqui también sonríe y gesticula con sus manos. Globos de diálogo: Sobre las personas, hay dos globos de diálogo. El de la mujer contiene la frase "Claro que sí, te comento", mientras que el del hombre pregunta "¿Podrías recordar un ejemplo relacionado con la valoración de apoyos?". Atmosfera y estado de ánimo: A pesar del difícil contexto que describe el texto sobre María, la imagen general transmite una atmósfera positiva y colaborativa. La conversación entre las dos personas parece ser amigable y enfocada en encontrar soluciones o ejemplos relacionados con la valoración de apoyos. Las expresiones sonrientes de ambos personajes sugieren un estado de ánimo optimista y dispuesto a ayudar. En general, la imagen combina una descripción de una situación desafiante con una representación visual de personas que buscan activamente formas de abordar y mejorar esa situación.')
 
         .row
           .col-lg-12.movil(data-aos="zoom-in")
@@ -816,7 +817,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="1312" height="738" src="https://www.youtube.com/embed/tSKbbHqnRDE" title="Diseñando un curso virtual accesible: paso a paso para la inclusión" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
 </template>
 <script>

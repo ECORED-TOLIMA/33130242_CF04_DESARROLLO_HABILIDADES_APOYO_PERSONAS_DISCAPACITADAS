@@ -47,11 +47,11 @@
         p La accesibilidad, entendida desde el principio de universalidad, está pensada para todas las personas. Sin embargo, en este caso, su aplicación depende de si una persona presenta algún tipo de discapacidad. La universalidad no implica que todas las personas en el mundo tengan el mismo derecho a exigir accesibilidad, sino que este derecho responde a una necesidad específica.
         .bloque-texto-c.color-secundario-oscuro.tarjeta.p-3
           .row.justify-content-center.align-items-center
-            .col-lg-2.col-6.mb-lg-0.d-none.d-lg-block.mb-4(data-aos="zoom-in")
+            .col-lg-3.col-6.mb-lg-0.d-none.d-lg-block.mb-4(data-aos="zoom-in")
               figure
                 img.img-fluid(src="@/assets/curso/temas/tema1/img5.svg" alt="Imagen decorativa")
-            .col-lg-10
-              p.text-bold Ejemplo de aplicación:
+            .col-lg-9
+              p.text-bold Ejemplo de aplicación
               p.mb-0 Si una persona trabaja en un tercer piso de un edificio que solo cuenta con escaleras, y esa persona es usuaria de silla de ruedas, se tiene el derecho de exigir una rampa o un ascensor. En cambio, una persona sin discapacidad no podría exigirlo en las mismas condiciones. Este ejemplo permite observar que la accesibilidad es un derecho propio de las personas con discapacidad.
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
@@ -61,7 +61,7 @@
         p.mb-0(data-aos="fade-left") Si se considera el planteamiento del jurista italiano Luigi Ferrajoli (1999) en su obra Derechos y garantías, donde se refiere a “la ley del más débil”, se entiende que los derechos no solo deben ser exigibles, sino también garantizados. En este sentido, la accesibilidad y su garantía constituyen una respuesta concreta de los derechos humanos frente a las necesidades de las personas con discapacidad.
 
     .titulo2.mb-4(data-aos="fade-left")
-      h5.mb-0 Exigibilidad del derecho:
+      h5.mb-0 Exigibilidad del derecho
     
     .row.mb-4
       .col-md-6.col-lg.tarjeta--tabla.p-4
@@ -89,23 +89,22 @@
         p.text-center La universalidad, en este contexto, se refiere al universo de estas personas, no a la totalidad de la población.
 
     .titulo2.mb-4(data-aos="fade-left")
-      h5.mb-0 Garantía institucional:
-    
+      h5.mb-0 Garantía institucional
 
     .row.justify-content-center.align-items-center
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         .bloque-texto-c.color-primario-medio.p-4
           ul.lista-ul
-            li
+            li.mb--44
               i.lista-ul__vineta
               p.mb-0.text-bold La garantía de este derecho recae en la respuesta institucional que el Estado debe ofrecer.
-            li
+            li.mb--44
               i.lista-ul__vineta
               p.mb-0.text-bold Si se presenta una acción de tutela ante un juez, este podría ordenar la reubicación de la persona en una oficina accesible.
-            li
+            li.mb--44
               i.lista-ul__vineta
               p.mb-0.text-bold Lo anterior se considera un ajuste razonable.
-            li
+            li.mb--44
               i.lista-ul__vineta
               p.mb-0.text-bold Se trata de una garantía jurídica que protege el derecho a la accesibilidad como derecho humano, reconocido por:
           .row.justify-content-center.tarjeta--FBG06.tarjeta.p-4
@@ -113,15 +112,15 @@
               ul.lista-ul              
                 li
                   ul
-                    li 
+                    li.mb--44
                       i.lista-ul__vineta
-                      | La Constitución colombiana
-                    li 
+                      p.mb-0 La Constitución colombiana
+                    li.mb--44
                       i.lista-ul__vineta
-                      | Tratados internacionales como la Convención sobre los Derechos de las Personas con Discapacidad
-                    li 
+                      p.mb-0 Tratados internacionales como la Convención sobre los Derechos de las Personas con Discapacidad
+                    li.mb--44
                       i.lista-ul__vineta
-                      | La Ley Estatutaria 1618 de 2013
+                      p.mb-0 La Ley Estatutaria 1618 de 2013
               
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
@@ -132,14 +131,14 @@
       h2 1.2	Principio de indivisibilidad
 
     .row.justify-content-center.align-items-center
-      .col-lg-3.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-4.col-10.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img.img-fluid(src="@/assets/curso/temas/tema1/img13.svg" alt="Imagen decorativa")
-      .col-lg-9(data-aos="zoom-in")
+      .col-lg-8(data-aos="zoom-in")
         p Este principio establece que los Derechos Humanos son inseparables entre sí. En ese sentido, el derecho a la accesibilidad no puede dividirse ni aplicarse de manera parcial. No es válido afirmar que algunas personas con discapacidad lo poseen y otras no. Esta garantía constituye el fundamento que fortalece el derecho a la accesibilidad como un derecho que corresponde a todas las personas con discapacidad, sin distinción.
-        .bloque-texto-c.color-primario.tarjeta.p-3
+        .bloque-texto-c.color-primario.tarjeta.p-4
           .row.justify-content-center.align-items-center
-            .col-lg-1.col-6.mb-lg-0.d-none.d-lg-block.mb-4(data-aos="zoom-in")
+            .col-lg-1.col-6.mb-lg-0.d-none.d-lg-block.mb-4.p-0(data-aos="zoom-in")
               figure
                 img.img-fluid(src="@/assets/curso/temas/tema1/img14.svg" alt="Imagen decorativa")
             .col-lg-11
@@ -150,7 +149,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.3	Principio de interdependencia
     p En esta misma línea, es necesario abordar el principio de interdependencia. El derecho a la accesibilidad, en el caso de personas con discapacidad, cumple este principio de manera integral, ya que está estrechamente vinculado con el ejercicio de otros derechos fundamentales.
-    p.mb-4 Ejemplo: derecho a la educación y al trabajo
+    p.text-bold.mb-0 Ejemplo: derecho a la educación y al trabajo
     .tarjeta--BG02.p-5
       .row.justify-content-center.mb-5
         .col-lg-5.mb-4.mb-lg-0
@@ -162,13 +161,13 @@
                   ul.lista-ul
                     li
                       ul
-                        li.mb--44
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Contenidos
-                        li.mb--44
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Metodología de enseñanza
-                        li.mb--44
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Materiales pedagógicos
 
@@ -182,19 +181,19 @@
                   ul.lista-ul
                     li.mb--44
                       ul
-                        li.mb--44 
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Lectores de pantalla
-                        li.mb--44 
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Textos en braille
-                        li.mb--44 
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Audiodescripción
-                        li.mb--44 
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Aplicaciones y software especializados
-                        li.mb--44 
+                        li
                           i.lista-ul__vineta
                           p.mb--44 Otras tecnologías de apoyo
       .row.justify-content-center.align-items-center
@@ -203,8 +202,8 @@
             .bloque-texto-gg__img(
               :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img17.svg')})`}"
             )
-            .bloque-texto-gg__texto.p-2
-              p.mb-0 En este sentido, el derecho al trabajo y el derecho a la accesibilidad se entrelazan, convirtiéndose en una sola garantía. Lo mismo ocurre con otros derechos: la interdependencia entre ellos implica que la accesibilidad es una condición indispensable para que las personas con discapacidad puedan ejercerlos plenamente.
+            .bloque-texto-gg__texto.p-2.mt-lg-0.mt-5
+              p.text-bold.mb-0 En este sentido, el derecho al trabajo y el derecho a la accesibilidad se entrelazan, convirtiéndose en una sola garantía. Lo mismo ocurre con otros derechos: la interdependencia entre ellos implica que la accesibilidad es una condición indispensable para que las personas con discapacidad puedan ejercerlos plenamente.
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
@@ -214,24 +213,24 @@
 
     .titulo-sexto.color-acento-contenido.offset-0.offset-lg-1(data-aos="fade-left")
       h5 Tabla 1.
-      i Evolución cronológica del derecho a la movilidad para personas con discapacidad física:
-    .row.justify-content-center.align-items-center.mb-5
+      i Evolución cronológica del derecho a la movilidad para personas con discapacidad física
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
-        .tabla-a.color-primario.mb-5
+        .tabla-a.color-primario
           table
             thead
               tr
-                th Etapa
+                th(width="130px") Etapa
                 th Avance en accesibilidad
             tbody
               tr
-                td  1.
+                td.text-center  1.
                 td  Adaptación de los sistemas de transporte público, como los autobuses.
               tr
-                td  2.
+                td.text-center  2.
                 td  Incorporación de modificaciones en calles y aceras.
               tr
-                td  3.
+                td.text-center  3.
                 td  Adecuación de edificios con rampas, ascensores y baños accesibles.
 
     p.mb-4 Esta transformación ha llevado a repensar todos los espacios urbanos bajo el enfoque del diseño universal.
@@ -252,7 +251,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         .row.justify-content-center.mb-4
-          .col-lg-1.d-none.d-lg-block(data-aos="zoom-in")
+          .col-lg-1.d-none.d-lg-block.p-0(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img19.svg', alt='Imagen decorativa')
           .col-lg-11
@@ -271,17 +270,17 @@
       .col-lg-10
         .bloque-texto-gg.color-secundario.p-3
           .bloque-texto-gg__img(
-            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img17.svg')})`}"
+            :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img21.svg')})`}"
           )
-          .bloque-texto-gg__texto
+          .bloque-texto-gg__texto.mt-5.mt-lg-0
             p.mb-0 El artículo 14 establece que el Estado colombiano, junto con el sector privado y las entidades públicas, debe transformar no solo la forma de construir, sino también la manera de comunicar. A continuación se presentan los elementos de accesibilidad allí contemplados para que personas con diversas discapacidades puedan acceder de manera equitativa a la información y a la comunicación en entornos físicos y digitales.
 
     .titulo2.mb-4(data-aos="fade-left")
-      h5.mb-0 Elementos de accesibilidad contemplados en el artículo 14:
+      h5.mb-0 Elementos de accesibilidad contemplados en el artículo 14
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-6.order-2.order-lg-1.mb-4.mb-lg-0
-        .row.align-items-center.bloque-texto-c.color-secundario.tarjeta.p-4
+        .row.align-items-center.bloque-texto-c.color-primario-medio.tarjeta.p-4
           .col-lg-4.d-none.d-lg-block(data-aos="zoom-in")
             figure
               img(src='@/assets/curso/temas/tema1/img22.svg', alt='Imagen decorativa')
@@ -291,25 +290,25 @@
                 ul
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Lenguaje claro
+                    p.mb--44.text-bold  Lenguaje claro
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Interpretación en lengua de señas
+                    p.mb--44.text-bold  Interpretación en lengua de señas
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Braille
+                    p.mb--44.text-bold  Braille
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Pictogramas
+                    p.mb--44.text-bold  Pictogramas
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Imágenes
+                    p.mb--44.text-bold  Imágenes
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Aplicaciones
+                    p.mb--44.text-bold  Aplicaciones
                   li.mb--44 
                     i.lista-ul__vineta
-                    p.mb--44  Tecnologías de apoyo
+                    p.mb--44.text-bold  Tecnologías de apoyo
 
       .col-lg-6.col-6.order-1.order-lg-2.mb-4.mb-lg-0
         figure

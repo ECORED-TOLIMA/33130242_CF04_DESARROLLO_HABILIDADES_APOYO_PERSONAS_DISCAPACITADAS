@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      'Accesibilidad, ajustes razonables, caja de herramientas y formatos.',
+      'Accesibilidad, ajustes razonables, caja de herramientas y formatos',
     descripcionCurso:
       'En este componente formativo se brindan herramientas para garantizar la accesibilidad en el proceso de valoración de apoyos, mediante la implementación de ajustes razonables, con el objetivo de promover la autonomía y la autodeterminación de las personas con discapacidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
