@@ -238,23 +238,23 @@
                 h5.mb-0 Enlace de acceso a las herramientas
               p.text-bold Lectores de pantalla
               .row.mb-3
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://www.convertic.gov.co/641/w3-propertyvalue-15308.html')" target="_blank")
                     span CONVERTIC
                     i.fas.fa-file-code
               
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://nvda.es/descargas/descarga-de-nvda/')" target="_blank")
                     span NVDA
                     i.fas.fa-file-code
               p.text-bold  Descriptor de imágenes
               .row
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://apps.microsoft.com/detail/9msw46ltdwgf?hl=en-US&gl=US')" target="_blank")
                     span Be My Eyes
                     i.fas.fa-file-code
               
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_salvatto.Sordos&hl=es_CO')" target="_blank")
                     span Háblalo
                     i.fas.fa-file-code
@@ -336,7 +336,7 @@
                 h5.mb-0 Enlace de acceso a las herramientas
               p.mb-0.text-bold Para la interpretación simultánea
               .row.mb-3
-                .col-4
+                .col-lg-4.col-6
                   a.boton.color-acento-botones(:href="('https://centroderelevo.gov.co/632/w3-channel.html')" target="_blank")
                     span Signos en Red
                     i.fas.fa-file-code
@@ -344,14 +344,14 @@
                
               p.mb-0.text-bold Aplicación recomendada para convertir audio a texto o viceversa; sonidos a señales visuales
               .row.mb-3
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://www.visualfy.com/es/apps-para-personas-sordas/')" target="_blank")
                     span Visualfy
                     i.fas.fa-file-code
               
               p.mb-0.text-bold Aplicación útil para convertir texto en voz y viceversa; para subtítulos
               .row
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_salvatto.Sordos&hl=es_CO')" target="_blank")
                     span Háblalo
                     i.fas.fa-file-code
@@ -418,7 +418,7 @@
                 h5.mb-0 Enlace de acceso a las herramientas
               p.text-bold Aplicación útil para convertir texto en voz y viceversa; para subtítulos, especialmente para quienes requieren apoyo en el diligenciamiento de respuestas verbales
               .row.mb-3
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_salvatto.Sordos&hl=es_CO')" target="_blank")
                     span Háblalo
                     i.fas.fa-file-code
@@ -491,14 +491,14 @@
                 h5.mb-0 Enlace de acceso a las herramientas
               p.text-bold Aplicaciones que favorecen el acompaña miento, la comunicación, la lectura, entre otras necesidades de las personas
               .row.mb-3
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://www.discapnet.es/accesibilidad/accesibilidad-en-las-aplicaciones-moviles/discapacidad-intelectual ')" target="_blank")
                     span Discapnet
                     i.fas.fa-file-code
                   
               p.text-bold Aplicación que convierte de texto a pictogramas
               .row
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://www.pictofacile.com/es/')" target="_blank")
                     span Pictofacil 
                     i.fas.fa-file-code
@@ -558,7 +558,7 @@
                 h5.mb-0 Enlace de acceso a las herramientas
               p.text-bold Aplicación que convierte la voz o el texto escrito en pictogramas
               .row.mb-3
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=com.orange.dictapicto&hl=es')" target="_blank")
                     span Dictapicto
                     i.fas.fa-file-code             
@@ -616,7 +616,7 @@
                 h5.mb-0 Aplicación que se puede utilizar para el desarrollo y el tratamiento cognitivo
               p.text-bold 
               .row.mb-3
-                .col-3
+                .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=com.imagiration.aphasia&pli=1')" target="_blank")
                     span Aphasia
                     i.fas.fa-file-code
