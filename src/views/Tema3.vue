@@ -169,7 +169,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         p En este apartado, se abordan los tipos de apoyo que pueden requerir las personas con discapacidad, junto con orientaciones prácticas para favorecer una interacción respetuosa y efectiva en distintos contextos.
-        p Cada subtema desarrolla las características del apoyo y las sugerencias para el acercamiento y la comunicación, de manera que el sea posible identificar las estrategias más adecuadas según las necesidades de cada persona.
+        p Cada subtema desarrolla las características del apoyo y las sugerencias para el acercamiento y la comunicación, de manera que sea posible identificar las estrategias más adecuadas según las necesidades de cada persona.
         p.mb-0 Estos contenidos buscan fortalecer la empatía, la comprensión y la capacidad de respuesta de quienes acompañan procesos de valoración o atención, promoviendo una atención centrada en la persona y basada en el respeto por la diversidad.
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0
         figure
@@ -416,7 +416,7 @@
 
               .titulo3.mb-3
                 h5.mb-0 Enlace de acceso a las herramientas
-              p.text-bold Aplicaciones útil para convertir texto en voz y viceversa; para subtítulos, especialmente para quienes requieren apoyo en el diligenciamiento de respuestas verbales
+              p.text-bold Aplicación útil para convertir texto en voz y viceversa; para subtítulos, especialmente para quienes requieren apoyo en el diligenciamiento de respuestas verbales
               .row.mb-3
                 .col-3
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_salvatto.Sordos&hl=es_CO')" target="_blank")
@@ -757,49 +757,49 @@
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img32_1.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img32_1.svg', alt='Imagen decorativa')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img32.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img32.svg', alt='Imagen decorativa')
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img33_1.svg', alt='La imagen presenta varios elementos:Texto informativo: A la izquierda, hay un recuadro con texto. Describe la situación de María, una mujer de 82 años, sorda y pensionada, que ha entrado en un estado depresivo tras el fallecimiento de su hermano, de quien dependía. Su única red de apoyo es Carlina, una vecina de 85 años que está muy enferma. Personas en conversación: En el centro y a la derecha, se ven dos personas en un diálogo. Una mujer joven, con el pelo corto y vestida con una camiseta a rayas y una falda naranja, sostiene una taza de café y gesticula con la mano mientras sonríe. Frente a ella, un hombre con una camisa azul de manga larga y pantalones caqui también sonríe y gesticula con sus manos. Globos de diálogo: Sobre las personas, hay dos globos de diálogo. El de la mujer contiene la frase "Claro que sí, te comento", mientras que el del hombre pregunta "¿Podrías recordar un ejemplo relacionado con la valoración de apoyos?". Atmosfera y estado de ánimo: A pesar del difícil contexto que describe el texto sobre María, la imagen general transmite una atmósfera positiva y colaborativa. La conversación entre las dos personas parece ser amigable y enfocada en encontrar soluciones o ejemplos relacionados con la valoración de apoyos. Las expresiones sonrientes de ambos personajes sugieren un estado de ánimo optimista y dispuesto a ayudar. En general, la imagen combina una descripción de una situación desafiante con una representación visual de personas que buscan activamente formas de abordar y mejorar esa situación.')
+              img(src='@/assets/curso/temas/tema3/img33_1.svg', alt='Imagen decorativa')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img33.svg', alt='La imagen presenta varios elementos:Texto informativo: A la izquierda, hay un recuadro con texto. Describe la situación de María, una mujer de 82 años, sorda y pensionada, que ha entrado en un estado depresivo tras el fallecimiento de su hermano, de quien dependía. Su única red de apoyo es Carlina, una vecina de 85 años que está muy enferma. Personas en conversación: En el centro y a la derecha, se ven dos personas en un diálogo. Una mujer joven, con el pelo corto y vestida con una camiseta a rayas y una falda naranja, sostiene una taza de café y gesticula con la mano mientras sonríe. Frente a ella, un hombre con una camisa azul de manga larga y pantalones caqui también sonríe y gesticula con sus manos. Globos de diálogo: Sobre las personas, hay dos globos de diálogo. El de la mujer contiene la frase "Claro que sí, te comento", mientras que el del hombre pregunta "¿Podrías recordar un ejemplo relacionado con la valoración de apoyos?". Atmosfera y estado de ánimo: A pesar del difícil contexto que describe el texto sobre María, la imagen general transmite una atmósfera positiva y colaborativa. La conversación entre las dos personas parece ser amigable y enfocada en encontrar soluciones o ejemplos relacionados con la valoración de apoyos. Las expresiones sonrientes de ambos personajes sugieren un estado de ánimo optimista y dispuesto a ayudar. En general, la imagen combina una descripción de una situación desafiante con una representación visual de personas que buscan activamente formas de abordar y mejorar esa situación.')
+              img(src='@/assets/curso/temas/tema3/img33.svg', alt='Imagen decorativa')
 
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img34_1.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img34_1.svg', alt='imagen decorativa')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img34.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img34.svg', alt='imagen decorativa')
 
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img35_1.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img35_1.svg', alt='imagen decorativa')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img35.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img35.svg', alt='imagen decorativa')
 
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img36_1.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img36_1.svg', alt='imagen decorativa')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img36.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img36.svg', alt='imagen decorativa')
 
         .row
           .col-lg-12.movil(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img37_1.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img37_1.svg', alt='imagen decorativa')
           .col-lg-12.desktop(data-aos="zoom-in")
             figure
-              img(src='@/assets/curso/temas/tema3/img37.svg', alt='Hombre: ¿Podrías recordar un ejemplo relacionado con la valoración de apoyos? Mujer: Claro que sí, te comento: María tiene 82 años, es persona sorda y quedó pensionada hace 2 meses, pues el hermano del cual dependió siempre, falleció. Es persona sorda y tiene movilidad reducida. Ante la muerte de su hermano, entró en un estado depresivo, pues siente que no sabe cómo defenderse en la vida, la única red de apoyo que tiene es Carlina, una vecina que tiene 85 años, pero se mantiene muy enferma.')
+              img(src='@/assets/curso/temas/tema3/img37.svg', alt='imagen decorativa')
 
     .bloque-texto-c.color-primario-medio.px-4.px-lg-0
       .row.justify-content-center.align-items-center.mb-5

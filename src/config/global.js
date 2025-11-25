@@ -265,13 +265,13 @@ export default {
       referencia:
         'Congreso de Colombia. (2013). <em>Ley Estatutaria 1618 de 2013: Por la cual se establecen disposiciones para garantizar el pleno ejercicio de los derechos de las personas con discapacidad</em>. Diario Oficial No. 48.733.',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=52132',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=52081',
     },
     {
       referencia:
         'Congreso de Colombia. (2019). <em>Ley 1996 de 2019: Por medio de la cual se establece el régimen para el ejercicio de la capacidad legal de las personas con discapacidad mayores de edad<em>. Diario Oficial No. 51.057.',
       link:
-        'https://www.secretariasenado.gov.co/senado/basedoc/ley_1996_2019.html',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=99712',
     },
     {
       referencia:
