@@ -110,7 +110,7 @@
           img.img-fluid(src="@/assets/curso/temas/tema2/img7.svg" alt="Imagen decorativa")
       .col-lg-7(data-aos="zoom-in")
         p A continuación, se presentarán ejemplos de ajustes razonables según el tipo de discapacidad, que —según la experiencia del Programa de Atención a Personas con Discapacidad de la Universidad de Antioquia— son útiles para procesos de valoración de apoyos o en general para el trabajo con personas con discapacidad.
-        p.mb-0 Es fundamental recordar que la #[i valoración de apoyos no se aplica de manera universal], sino que debe evaluarse en cada caso concreto si es necesaria y pertinente.
+        p.mb-0 Es fundamental recordar que la #[b valoración de apoyos no se aplica de manera universal], sino que debe evaluarse en cada caso concreto si es necesaria y pertinente.
         
     separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
