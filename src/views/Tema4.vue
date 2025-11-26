@@ -16,13 +16,13 @@
                 img(src='@/assets/curso/temas/tema4/img1.svg', alt='Texto que describa la imagen')
             .col-lg-12  
               ul.lista-ul 
-                li 
+                li
                   i.lista-ul__vineta
                   | Informe de valoración de apoyos.
-                li 
+                li
                   i.lista-ul__vineta
                   | Consentimiento informado para la persona con discapacidad.
-                li 
+                li
                   i.lista-ul__vineta
                   | Consentimiento informado para las personas que se configuran como red de apoyo para la persona en condición de discapacidad y que participan en la valoración.
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0

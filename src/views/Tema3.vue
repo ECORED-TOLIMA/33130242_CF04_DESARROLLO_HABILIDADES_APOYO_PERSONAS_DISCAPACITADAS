@@ -60,37 +60,37 @@
             p También conocidos como tecnologías de asistencia, comprenden todos los elementos, dispositivos, programas, aplicaciones, sistemas o servicios que utilizan la tecnología para mejorar la autonomía de personas con discapacidad, ya sea física, mental o funcional, y promover su bienestar.
             P Entre estos se encuentran:
             ul.lista-ul  
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Tableros de comunicación.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Uso de gráficos.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Sintetizadores de voz.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Comunicación gestual.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Otros dispositivos tecnológicos que fortalecen la autonomía.
           div(titulo="Recursos comunicativos")
             p Incluyen herramientas como:
             ul.lista-ul 
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 p.mb-0 #[i Software] lector de pantalla.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Amplificadores de voz.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Tabletas.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Amplificadores de imagen.
-              li 
+              li.mb--44
                 i.lista-ul__vineta
                 | Otros dispositivos que facilitan la interacción y el acceso a la información.
 
