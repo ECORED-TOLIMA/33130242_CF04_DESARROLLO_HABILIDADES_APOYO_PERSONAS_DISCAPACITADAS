@@ -70,7 +70,7 @@ export default {
         nombreRuta: 'tema2',
         numero: '2',
         titulo:
-          'Ajustes razonables: según el tipo de discapacidad y la necesidad de la persona.',
+          'Ajustes razonables: según el tipo de discapacidad y la necesidad de la persona',
         desarrolloContenidos: true,
         subMenu: [
           {
