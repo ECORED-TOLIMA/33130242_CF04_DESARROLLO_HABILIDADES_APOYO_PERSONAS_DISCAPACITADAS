@@ -280,7 +280,7 @@
                         |   Recurrir al lenguaje facial y corporal.
                       li 
                         i.lista-ul__vineta
-                        |   Tener el recurso del intérprete de lengua de señas colombiana cuando la persona es sordo señante
+                        |   Tener el recurso del intérprete de lengua de señas colombiana cuando la persona es sordo señante.
                       li 
                         i.lista-ul__vineta
                         |  Acceder a los recursos que ofrecen los sistemas aumentativos y alternativos de comunicación.
@@ -330,7 +330,7 @@
                   | Si desea llamar su atención prenda y apague la luz o mueva sus manos.
                 li 
                   i.lista-ul__vineta
-                  | No todas las personas sordas tienen buen uso del español, por lo tanto, escribir o entregar textos escritos no siempre garantiza el acceso a la comunicación, si ha de utilizarse, deben ser textos adaptados, con lenguaje sencillo que faciliten la comprensión 
+                  | No todas las personas sordas tienen buen uso del español, por lo tanto, escribir o entregar textos escritos no siempre garantiza el acceso a la comunicación, si ha de utilizarse, deben ser textos adaptados, con lenguaje sencillo que faciliten la comprensión.
 
               .titulo3.mb-3
                 h5.mb-0 Enlace de acceso a las herramientas
@@ -409,14 +409,14 @@
                   |   Si es una persona de talla baja, ubique un banquito pequeño al lado de la silla para que se le facilite sentarse en esta.
                 li.mb--44
                   i.lista-ul__vineta
-                  | Asegúrese de ubicar los objetos a su altura
+                  | Asegúrese de ubicar los objetos a su altura.
                 li.mb--44
                   i.lista-ul__vineta
                   | Evite poner objetos que limiten su desplazamiento por el espacio.
 
               .titulo3.mb-3
                 h5.mb-0 Enlace de acceso a las herramientas
-              p.text-bold Aplicación útil para convertir texto en voz y viceversa; para subtítulos, especialmente para quienes requieren apoyo en el diligenciamiento de respuestas verbales
+              p.text-bold Aplicación útil para convertir texto en voz y viceversa; para subtítulos, especialmente para quienes requieren apoyo en el diligenciamiento de respuestas verbales.
               .row.mb-3
                 .col-lg-3.col-6
                   a.boton.color-acento-botones(:href="('https://play.google.com/store/apps/details?id=appinventor.ai_mateo_nicolas_salvatto.Sordos&hl=es_CO')" target="_blank")
