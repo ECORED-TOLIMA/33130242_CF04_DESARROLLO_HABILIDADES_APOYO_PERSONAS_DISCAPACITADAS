@@ -273,7 +273,7 @@
             :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/img21.svg')})`}"
           )
           .bloque-texto-gg__texto.mt-5.mt-lg-0
-            p.mb-0 El artículo 14 establece que el Estado colombiano, junto con el sector privado y las entidades públicas, debe transformar no solo la forma de construir, sino también la manera de comunicar. A continuación se presentan los elementos de accesibilidad allí contemplados para que personas con diversas discapacidades puedan acceder de manera equitativa a la información y a la comunicación en entornos físicos y digitales.
+            p.text-bold.mb-0 El artículo 14 establece que el Estado colombiano, junto con el sector privado y las entidades públicas, debe transformar no solo la forma de construir, sino también la manera de comunicar. A continuación se presentan los elementos de accesibilidad allí contemplados para que personas con diversas discapacidades puedan acceder de manera equitativa a la información y a la comunicación en entornos físicos y digitales.
 
     .titulo2.mb-4(data-aos="fade-left")
       h5.mb-0 Elementos de accesibilidad contemplados en el artículo 14
