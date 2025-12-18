@@ -16,610 +16,593 @@ export default {
       tema: 'Procedimiento de la valoración de apoyos',
       titulo: 'Cuestionario',
       introduccion:
-        'Identificar la apropiación de los conocimientos sobre el procedimiento de la valoración de apoyos',
+        '<b>Objetivo:</b> identificar la apropiación de los conocimientos sobre accesibilidad, ajustes razonables, caja de herramientas y formatos.',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: 'Una valoración de apoyos es:',
+          texto:
+            '¿Todas las personas con discapacidad requieren una valoración de apoyos para ejercer su derecho a decidir de manera autónoma, segura y con los ajustes razonables que puedan necesitar?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Examen de condiciones de vida, habilidades, fortalezas y desafíos en el entorno familiar de la persona con discapacidad.',
+                'Sí, porque al tener alguna discapacidad requieren ajustes razonables que faciliten la toma de decisiones.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Evaluación de barreras que dificultan interacciones y decisiones autónomas en personas con discapacidad.',
-              esCorrecta: false,
+                'No, porque no todas las personas con discapacidad necesitan apoyos para tomar decisiones de forma autónoma y segura.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Valoración centrada en fortalezas, sin considerar los desafíos que enfrenta la persona con discapacidad.',
+                'Sí, porque como medida de protección se valora el tipo de apoyo que les permita decidir con seguridad y confianza.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Evaluación de barreras y apoyos necesarios para fortalecer decisiones autónomas y participación de la persona con discapacidad.',
-              esCorrecta: true,
+                'Si, porque todas las personas con discapacidad, sin excepción, no tienen capacidad jurídica para la toma de decisiones.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Todas las personas con discapacidad requieren de una valoración de apoyos?',
+            '¿Una persona con discapacidad auditiva necesita una valoración de apoyos para ejercer su derecho a decidir de manera autónoma y con acceso pleno a la información?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Sí, porque permite revisar si la persona necesita apoyos para tomar decisiones autónomas.',
-              esCorrecta: false,
+                'No, solo requiere ajustes razonables que faciliten la comunicación y el acceso pleno a la información.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Sí, porque todas las personas con discapacidad necesitan apoyos para decidir en cualquier situación.',
+                'Sí, porque las personas sordas enfrentan barreras comunicativas que dificultan ejercer decisiones de manera adecuada.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'No, porque solo quienes enfrentan barreras para decidir requieren valoración y acompañamiento para ejercer su autonomía.',
-              esCorrecta: true,
+                'Sí, porque al tener una discapacidad, pueden requerir valoración de apoyos para que otra persona les ayude a decidir con respaldo jurídico.',
+              esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'No, porque todas las personas con discapacidad tienen plena capacidad jurídica en todos los casos.',
+                'No, porque las personas con discapacidad auditiva no requieren ajustes razonables, ya que se pueden desplazar autónomamente.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
           texto:
-            '¿Qué elementos deben tenerse en cuenta antes de realizar una valoración de apoyos?',
+            '¿Todas las personas con discapacidad intelectual requieren una valoración de apoyos para ejercer su derecho a decidir sobre distintos aspectos de la vida de forma autónoma, informada y segura?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Se estudia exclusivamente el diagnóstico médico y la historia clínica para definir los ajustes razonables necesarios durante la valoración de apoyos.',
-              esCorrecta: false,
+                'No, solo en algunos casos se realiza valoración de apoyos para facilitar decisiones informadas sobre aspectos puntuales de la vida.',
+              esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Se analiza detallada y exclusivamente el diagnóstico e historia clínica para decidir si se entrevista a la persona con discapacidad o a quien le acompaña.',
+                'Siempre se requiere valoración de apoyos para que otra persona respalde decisiones sobre todos los aspectos de la vida.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Se revisa exclusivamente el diagnóstico e historia clínica como base para diseñar entrevista semi estructurada y aplicarla personalmente a quien solicitó la valoración.',
+                'Sí, se necesita valoración de apoyos para acceder a adjudicación judicial que permita a otra persona tomar decisiones por ellas.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Se examina diagnóstico e historia clínica para identificar ajustes razonables que se aplicarán en la entrevista semi estructurada de valoración.',
-              esCorrecta: true,
+                'Sí, las personas con discapacidad intelectual requieren de un proceso de interdicción, para que una persona de confianza pueda ayudarles a tomar decisiones.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto: 'La entrevista que se le realiza a la persona debe ser:',
+          texto:
+            'Cuando se realiza una valoración de apoyos, debe tenerse en cuenta:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Semi estructurada porque se requiere de una preparación previa por parte del facilitador para determinar qué preguntas necesita.',
+              texto: 'Una entrevista semiestructurada general.',
               esCorrecta: false,
             },
-            {
-              id: 'b',
-              texto:
-                'Estructurada, porque tiene preguntas seleccionadas por el facilitador, quien elige las que considere convenientes, según lo que observe en la entrevista.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Una entrevista grupal.', esCorrecta: false },
             {
               id: 'c',
-              texto:
-                'Semi estructurada, con estudio previo y ajustes razonables que garanticen comprensión plena por parte de la persona entrevistada.',
+              texto: 'Una entrevista semiestructurada individual.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Estructurada, con preguntas predeterminadas aplicadas igual para cualquier tipo de discapacidad, sin considerar diferencias individuales.',
+              texto: 'Una entrevista estructurada vecinal.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué es un acuerdo de apoyos?',
+          texto: 'El consentimiento informado es:',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Documento elaborado por familiares para que la persona con discapacidad pueda expresar sus decisiones con acompañamiento.',
+                'Un documento que firma la persona con discapacidad de manera posterior a la valoración de apoyos.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Documento elaborado por persona facilitadora con la persona con discapacidad, que define ajustes razonables y apoyos necesarios para tomar decisiones autónomas.',
-              esCorrecta: true,
+                'Un documento que firma la familia de manera posterior a la valoración de apoyos.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Documento redactado por el equipo facilitador luego de realizar la evaluación de apoyos correspondiente.',
-              esCorrecta: false,
+                'Un documento que firma la persona con discapacidad para su entrevista de valoración de apoyos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Documento elaborado por la persona con discapacidad junto a su familia y el equipo facilitador que la acompaña.',
+                'Un documento que firma la familia para establecer una red de posibles apoyos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
           texto:
-            '¿Con quién debe hacerse la entrevista que se le realiza a la persona con discapacidad?',
+            '¿Qué se debe considerar para implementar ajustes razonables que garanticen el ejercicio pleno de los derechos?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'De manera individual con la persona con discapacidad.',
+              texto:
+                'Un ajuste específico según el tipo de discapacidad que presente la persona con discapacidad.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Con la persona con discapacidad acompañada de su apoyo más cercano, en caso de requerirlo.',
+                'Ajustes diversos que respondan a necesidades particulares, siempre que la persona los solicite de forma voluntaria.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Con quien haya solicitado la valoración de apoyos.',
+              texto:
+                'Un diagnóstico de acuerdo con el Sistema Internacional de Enfermedades Mentales (CIE 11).',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Con el núcleo familiar para que indique qué necesita la persona y por qué requiere la valoración.',
+                'La historia clínica como referencia para identificar los antecedentes de salud en cada caso.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
           texto:
-            '¿Se necesita una valoración de apoyos para un acuerdo de apoyos?',
+            '¿Qué es un ajuste razonable para garantizar el ejercicio pleno de derechos de las personas con discapacidad en igualdad de condiciones?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Sí, porque para cualquier creación de documentos de una persona con discapacidad se necesita una valoración.',
+                'La implementación y uso de herramienta tecnológica que facilite la interacción con personas con discapacidad en contextos específicos y necesarios.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Sí, porque el acuerdo implica decisiones importantes y requiere valoración para confirmar si la persona con discapacidad está en capacidad de realizarlo.',
-              esCorrecta: false,
+                'Modificaciones y adaptaciones necesarias y adecuadas que no generen carga excesiva y garanticen derechos en igualdad de condiciones con otras personas.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'No se necesita, dado que las personas con discapacidad tienen plena capacidad y con eso basta.',
+                'Estrategia que permite a personas con discapacidad tomar decisiones informadas, seguras y respetadas en distintos ámbitos de vida.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'No, las personas con discapacidad que pueden exteriorizar su decisión y preferencias pueden realizar acuerdo de apoyos válidos.',
-              esCorrecta: true,
+                'Modificaciones en las rutinas de las personas con discapacidad y que le permitan acceder a los diferentes servicios.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 8,
           texto:
-            '¿La valoración de apoyos se necesita para instaurar y abrir un proceso de adjudicación judicial de apoyos?',
+            'El principio que establece que el derecho a la accesibilidad no puede dividirse ni aplicarse parcialmente, y que garantiza este derecho para todas las personas con discapacidad sin distinción, se denomina:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Sí, aunque no es requisito de procedibilidad y el Juez podrá pedirla, es importante el análisis de este en el proceso judicial. Desde la demanda, ahorra tiempos y etapas procesales.',
+              texto: 'Principio de indivisibilidad',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto:
-                'Sí, porque las familias deciden cuándo y cómo presentar la demanda para adjudicación, incluyendo la valoración de apoyos correspondiente.',
+              texto: 'Principio de interdependencia',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto:
-                'No, porque las personas con discapacidad tienen capacidad plena y el juez decide si se requiere valoración durante el proceso.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'No, porque el juez determina discrecionalmente si la persona con discapacidad necesita valoración para iniciar el proceso judicial.',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'Principio de progresividad', esCorrecta: false },
+            { id: 'd', texto: 'Principio de dependencia', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
           texto:
-            '¿Qué se debe hacer cuando no es posible la suscripción del apoyo?',
+            'Desde el principio de interdependencia, ¿cuál afirmación refleja correctamente la relación entre el derecho al trabajo y el derecho a la accesibilidad para personas con discapacidad?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Explicarle a la persona con discapacidad que no se puede hacer la suscripción del apoyo.',
+                'El derecho al trabajo y el derecho a la accesibilidad son independientes y tienen sus propias particularidades y formas de garantizarse.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'Si es en una notaría se debe realizar un acta y si es en un Centro de Conciliación en la constancia de audiencia privada se debe indicar esta situación.',
-              esCorrecta: true,
+                'El derecho al trabajo y el derecho a la accesibilidad se amplían progresivamente en el tiempo, según nuevas normatividades vigentes.',
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Como no es posible la suscripción del acuerdo de apoyo se remite el caso por competencia al Juez de Familia para que adelante una adjudicación judicial de apoyos.',
+                'El derecho al trabajo y el derecho a la accesibilidad implican realizar procesos educativos con quienes valoran los apoyos requeridos.',
               esCorrecta: false,
             },
             {
               id: 'd',
               texto:
-                'Como no es posible realizar la suscripción del acuerdo de apoyo, la persona con discapacidad no puede iniciar posteriormente un trámite sobre el mismo caso',
-              esCorrecta: false,
+                'El derecho al trabajo y el derecho a la accesibilidad se entrelazan, convirtiéndose en una sola garantía.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: 'Una valoración de apoyos contiene:',
+          texto:
+            '¿Qué distingue a los ajustes razonables de los ajustes procesales en el ejercicio de derechos de las personas con discapacidad?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Un diagnóstico Médico.', esCorrecta: false },
-            { id: 'b', texto: 'Una valoración pedagógica.', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'Los ajustes razonables se aplican en contextos judiciales; los ajustes procesales garantizan acceso a la información y comunicación general.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Los ajustes razonables permiten adaptarse a las necesidades de la red de apoyo de las personas con discapacidad; los procesales son meramente instrumentales.',
+              esCorrecta: false,
+            },
             {
               id: 'c',
-              texto: 'Una valoración de necesidades insatisfechas.',
+              texto:
+                'Los ajustes razonables garantizan acceso a la información, comunicación y entornos físicos; los procesales se aplican en contextos judiciales o administrativos.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Ninguna de las anteriores.', esCorrecta: true },
+            {
+              id: 'd',
+              texto:
+                'Los ajustes razonables permiten identificar las necesidades de las personas con discapacidad; los procesales realizar las adaptaciones respectivas en cualquier entorno físico o institucional.',
+              esCorrecta: true,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto: 'texto_pregunta',
-          imagen: require('@/assets/actividad/imagen5.png'),
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'opcion_1', esCorrecta: true },
-            { id: 'b', texto: 'opcion_2', esCorrecta: false },
-            { id: 'c', texto: 'opcion_3', esCorrecta: false },
-            { id: 'c', texto: 'opcion_4', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto: 'Al realizar una valoración de apoyos, esta se dirige a:',
+          texto:
+            '¿Cuál de las siguientes acciones corresponde a los mínimos para el acercamiento con las personas con discapacidad psicosocial en las valoraciones de apoyo?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Una persona con discapacidad.',
-              esCorrecta: false,
+              texto:
+                'Actuar de manera natural, empleando un lenguaje igual al que se usa con las demás personas, sin modificar tono ni forma.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Una persona que podría tener alguna discapacidad.',
+              texto:
+                'Hablar con un lenguaje infantilizado para facilitar la comprensión de la persona y acorde con su nivel intelectual y capacidad comunicativa.',
               esCorrecta: false,
             },
             {
               id: 'c',
               texto:
-                'Una persona con discapacidad que requiere apoyo en decisiones.',
-              esCorrecta: true,
+                'Evitar en la medida de lo posible el contacto directo para evitar incomodar a la persona y su red de apoyo.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Una persona con diversidad funcional.',
+              texto:
+                'Dirigir la conversación únicamente a la red de apoyo de la persona, pues solo esta puede explicar el proceso cabalmente.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            '¿Qué función cumplen los apoyos para las personas con discapacidad en el proceso de valoración de apoyos?',
+            'Recursos humanos como docentes, intérpretes y modelos lingüísticos garantizan comunicación, información y aprendizaje accesible para personas con discapacidad en condiciones de equidad:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto:
-                'Les permite informarse, comunicarse y comprender plenamente lo que se le plantea y lo que se pretende realizar mediante la valoración.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto:
-                'Les permite entender la importancia que sea una persona externa de confianza, la que tome las decisiones por ellas.',
+              texto: 'Tecnologías y productos de apoyo',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto:
-                'Les permite reconocer la importancia de la familia, como núcleo fundamental de la sociedad y la importancia de que sean estas quienes brinden los apoyos respectivos.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Les permite comunicarse y comprender que las actividades sociales son fundamentales para garantizar su inclusión en el contexto comunitario.',
-              esCorrecta: false,
-            },
+            { id: 'b', texto: 'Recursos pedagógicos', esCorrecta: false },
+            { id: 'c', texto: 'Recursos comunicativos', esCorrecta: true },
+            { id: 'd', texto: 'Recursos especializados', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            'Según la Ley 1996 de 2019 y la Convención sobre los Derechos de las Personas con Discapacidad, son principios fundamentales que garantizan la autonomía y capacidad jurídica, excepto:',
+            'El derecho a la accesibilidad es un derecho humano que se fundamenta en los siguientes principios:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'Las personas con discapacidad son sujetos plenos de derechos; sus decisiones deben ser respetadas, aceptadas y acatadas por todas las personas.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Principio de universalidad.', esCorrecta: true },
             {
               id: 'b',
-              texto:
-                'El principio de accesibilidad garantiza ajustes razonables para que personas con discapacidad comprendan, se informen y comuniquen sus decisiones libremente.',
-              esCorrecta: false,
+              texto: 'Principio de indivisibilidad e interdependencia.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Se reconoce la red de apoyos, elegida libremente por la persona con discapacidad, basada en parentesco, amistad o confianza.',
-              esCorrecta: false,
+                'Principio de progresividad, igualdad y no discriminación.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto:
-                'Deben tener autorización permanente de terceros para ejercer sus derechos y tomar decisiones personales en cualquier situación.',
+              texto: 'Principio de igualdad y no discriminación.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
           texto:
-            '¿Cuál es uno de los aspectos fundamentales que debe considerarse al inicio de la entrevista para la valoración de apoyos a una persona con discapacidad?',
+            'Luego de identificar necesidades específicas y contar con orientaciones, ¿qué acciones podrían aplicarse al entrevistar una persona con discapacidad intelectual grave para evaluar motivaciones y proyecto de vida?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
               texto:
-                'Explicar consentimiento informado y pasos del proceso a la persona con discapacidad y su red de apoyo.',
+                'Asegurar la accesibilidad de los materiales cuando no sabe leer ni escribir, usando videos, pictogramas e imágenes visuales claras y comprensibles.',
               esCorrecta: true,
             },
             {
               id: 'b',
               texto:
-                'Indagar motivaciones, proyecto de vida y red de apoyo de la persona con discapacidad.',
-              esCorrecta: false,
+                'Diseñar preguntas accesibles con lenguaje concreto y sencillo, usando imágenes o símbolos en papel bond, una pregunta por hoja.',
+              esCorrecta: true,
             },
             {
               id: 'c',
               texto:
-                'Evaluar situación socioeconómica y apoyos necesarios para decisiones patrimoniales.',
-              esCorrecta: false,
+                'Verificar la comprensión confirmando que la respuesta sea coherente. Si hay confusión, pedir explicación con sus propias palabras para validar.',
+              esCorrecta: true,
             },
             {
               id: 'd',
               texto:
-                'Identificar apoyos para decisiones autónomas sobre trabajo, ingresos y condiciones laborales.',
-              esCorrecta: false,
+                'Explorar sueños, intereses y apoyos necesarios utilizando herramientas para identificar motivaciones, metas, gustos y objetivos de la persona entrevistada.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Según la Corte Constitucional de Colombia, ¿cuáles son los componentes que definen la capacidad jurídica de una persona con discapacidad, como titulares plenas de derechos?',
+            '¿Cuáles afirmaciones describen adecuadamente algunos aspectos del uso del Personal Map como herramienta aplicable en valoraciones de apoyo para personas con discapacidad?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Capacidad de goce.', esCorrecta: true },
-            { id: 'b', texto: 'Capacidad de ejercicio.', esCorrecta: true },
-            { id: 'c', texto: 'Capacidad de dependencia.', esCorrecta: false },
-            { id: 'd', texto: 'Capacidad restringida', esCorrecta: false },
+            {
+              id: 'a',
+              texto:
+                'El Personal Map permite identificar gustos, motivaciones, sueños y objetivos, facilitando una conversación centrada en la persona entrevistada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto:
+                'El Personal Map se utiliza exclusivamente para evaluar habilidades cognitivas y no aborda intereses, motivaciones, sueños ni metas personales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto:
+                'El Personal Map permite conocer aspectos esenciales de la persona: intereses, metas y apoyos necesarios para alcanzarlos plenamente.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto:
+                'El Personal Map es una técnica verbal que excluye elementos visuales y no considera los sueños, motivaciones ni aspiraciones personales.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
           texto:
-            '¿Cuáles aspectos deben considerarse durante la entrevista en el proceso de valoración para garantizar la autonomía de la persona con discapacidad?',
+            'La accesibilidad, vista desde el principio de la universalidad, está pensada para todos (as, es), en este caso el para todos (as, es) dependerá si la persona tiene algún tipo de discapacidad. La universalidad no es un derecho que todos los seres humanos del planeta tengan, este responde a una necesidad.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'Analizar condiciones físicas, sensoriales y psicoemocionales de la persona con discapacidad en su entorno cotidiano.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto:
-                'Identificar barreras actitudinales, físicas y comunicativas que puedan limitar la toma de decisiones autónomas.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto:
-                'Promover un ambiente seguro y de confianza que facilite el diálogo y la expresión libre de decisiones',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'Aplicar una lista de verificación rígida que limite la conversación y estandarice el análisis de cada caso.',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
           texto:
-            'Algunos aspectos que deben incluirse en la solicitud de valoración de apoyos para una persona con discapacidad, de acuerdo con el procedimiento establecido son:',
+            'Los recursos y apoyos orientados a fortalecer la autonomía, la independencia y la toma de decisiones de las personas con discapacidad pueden ser de orden tecnológico, pedagógico o una combinación de ambos.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'Datos personales de la persona con discapacidad y del solicitante, si aplica, incluyendo identificación, contacto, nivel educativo y estado civil.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto:
-                'Motivación de la solicitud, razones por las cuales se considera que la persona con discapacidad requiere valoración de apoyos para decidir autónomamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto:
-                'Descripción clara de los actos jurídicos para los cuales se solicita la valoración de apoyos.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'Describir claramente cómo la persona con discapacidad se comunica en su vida diaria, incluyendo métodos, apoyos y necesidades específicas.',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
           texto:
-            'Dado que la capacidad jurídica es inherente a todas las personas con discapacidad, el acuerdo de apoyos garantiza que cada persona decida libremente cómo, cuándo y en qué situaciones recibir apoyo.',
+            'Las personas con discapacidad son nombradas así, porque ellas mismas decidieron que este término era pertinente porque las hacía visibles en todos los escenarios de participación del mundo.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Verdadero', esCorrecta: true },
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
           texto:
-            'Para la preparación previa al encuentro con la persona con discapacidad en la valoración de apoyos, se debe evitar leer la solicitud y revisar documentos anexos, pues ello puede prejuiciar.',
+            'Una persona sin discapacidad que trabaja en un tercer piso sin ascensor puede exigir legalmente la instalación de una rampa o elevador por motivos de accesibilidad.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
           texto:
-            'Es fundamental que la persona facilitadora interactúe directamente con la persona con discapacidad, considerando ajustes razonables y herramientas de accesibilidad, dirigiendo preguntas con contacto visual y verbal, no a su red de apoyo.',
+            'La caja de herramientas tiene como propósito evaluar a las personas con discapacidad sin necesidad de estrategias, recursos ni acciones afirmativas por parte de las personas facilitadoras del proceso de valoración.',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Verdadero', esCorrecta: true },
-            { id: 'b', texto: 'Falso', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento del componente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado:

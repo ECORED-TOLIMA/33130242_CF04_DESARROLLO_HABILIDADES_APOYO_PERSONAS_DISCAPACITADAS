@@ -95,31 +95,31 @@
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         .bloque-texto-c.color-primario-medio.p-4
           ul.lista-ul
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.mb-0.text-bold La garantía de este derecho recae en la respuesta institucional que el Estado debe ofrecer.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.mb-0.text-bold Si se presenta una acción de tutela ante un juez, este podría ordenar la reubicación de la persona en una oficina accesible.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.mb-0.text-bold Lo anterior se considera un ajuste razonable.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.mb-0.text-bold Se trata de una garantía jurídica que protege el derecho a la accesibilidad como derecho humano, reconocido por:
           .row.justify-content-center.tarjeta--FBG06.tarjeta.p-4
             .col
               ul.lista-ul              
                 li
                   ul
-                    li.mb--44
-                      i.lista-ul__vineta
+                    li.mb--2
+                      i.fas.fa-minus(style="top: 8px;")
                       p.mb-0 La Constitución colombiana
-                    li.mb--44
-                      i.lista-ul__vineta
+                    li.mb--2
+                      i.fas.fa-minus(style="top: 8px;")
                       p.mb-0 Tratados internacionales como la Convención sobre los Derechos de las Personas con Discapacidad
-                    li.mb--44
-                      i.lista-ul__vineta
+                    li.mb--2
+                      i.fas.fa-minus(style="top: 8px;")
                       p.mb-0 La Ley Estatutaria 1618 de 2013
               
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -162,13 +162,13 @@
                     li
                       ul
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Contenidos
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Metodología de enseñanza
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Materiales pedagógicos
 
               
@@ -182,19 +182,19 @@
                     li.mb--44
                       ul
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Lectores de pantalla
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Textos en braille
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Audiodescripción
                         li
-                          i.lista-ul__vineta
-                          p.mb--44 Aplicaciones y software especializados
+                          i.fas.fa-minus(style="top: 8px;")
+                          p.mb--44 Aplicaciones y #[i software especializados]
                         li
-                          i.lista-ul__vineta
+                          i.fas.fa-minus(style="top: 8px;")
                           p.mb--44 Otras tecnologías de apoyo
       .row.justify-content-center.align-items-center
         .col-lg-10
@@ -286,28 +286,28 @@
               img(src='@/assets/curso/temas/tema1/img22.svg', alt='Imagen decorativa')
           .col-lg-8
             ul.lista-ul
-              li.mb--44
+              li.mb--6
                 ul
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Lenguaje claro
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Interpretación en lengua de señas
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Braille
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Pictogramas
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Imágenes
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Aplicaciones
-                  li.mb--44 
-                    i.lista-ul__vineta
+                  li.mb--8
+                    i.fas.fa-minus(style="top: 8px;")
                     p.mb--44.text-bold  Tecnologías de apoyo
 
       .col-lg-6.col-6.order-1.order-lg-2.mb-4.mb-lg-0

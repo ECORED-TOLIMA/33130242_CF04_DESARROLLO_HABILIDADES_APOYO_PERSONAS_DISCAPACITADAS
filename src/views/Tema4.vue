@@ -17,13 +17,13 @@
             .col-lg-12  
               ul.lista-ul 
                 li
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Informe de valoración de apoyos.
                 li
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Consentimiento informado para la persona con discapacidad.
                 li
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Consentimiento informado para las personas que se configuran como red de apoyo para la persona en condición de discapacidad y que participan en la valoración.
       .col-lg-3.col-6.order-1.order-lg-2.mb-4.mb-lg-0
         figure

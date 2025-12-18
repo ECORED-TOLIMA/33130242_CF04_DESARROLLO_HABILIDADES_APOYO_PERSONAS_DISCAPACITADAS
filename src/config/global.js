@@ -191,7 +191,7 @@ export default {
     {
       tema: 'Protección de Derechos Fundamentales',
       referencia:
-        'Ferrajoli, L. (1999). Derechos y garantías: <em>La ley del más débil</em>. Editorial Trotta. Disponible en https://archive.org/details/FERRAJOLIDerechosYGarantiasLaLeyDelMasDebil/page/n3/mode/2up',
+        'Ferrajoli, L. (1999). Derechos y garantías: <em>La ley del más débil</em>. Editorial Trotta.',
       tipo: 'Libro en línea',
       link:
         'https://archive.org/details/FERRAJOLIDerechosYGarantiasLaLeyDelMasDebil/page/n3/mode/2up',

@@ -42,40 +42,40 @@
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="1.	Modificaciones y adaptaciones")
-            ul.lista-ul  
-              li 
-                i.lista-ul__vineta
-                | Implican estrategias específicas que deben seleccionarse según el tipo de discapacidad.
-              li 
-                i.lista-ul__vineta
-                | Cada persona tiene necesidades particulares, por lo que las soluciones deben ser diversas y flexibles.
-              li 
-                i.lista-ul__vineta
-                | El objetivo es garantizar que todas las personas con discapacidad accedan a la misma cantidad y calidad de información, comunicación y servicios que cualquier otra persona.
+              ul.lista-ul.ms-4
+                li 
+                  i.fas.fa-circle(style="top: 8px;")
+                  | Implican estrategias específicas que deben seleccionarse según el tipo de discapacidad.
+                li 
+                  i.fas.fa-circle(style="top: 8px;")
+                  | Cada persona tiene necesidades particulares, por lo que las soluciones deben ser diversas y flexibles.
+                li 
+                  i.fas.fa-circle(style="top: 8px;")
+                  | El objetivo es garantizar que todas las personas con discapacidad accedan a la misma cantidad y calidad de información, comunicación y servicios que cualquier otra persona.
           div(titulo="2.	Proporcionalidad")
-            ul.lista-ul 
+            ul.lista-ul.ms-4
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | No se limita al aspecto económico.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Si la única forma de garantizar el acceso resulta costosa, esto no debe convertirse en una barrera.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Lo que se considera razonable y proporcional es elegir la alternativa más eficiente en términos de recursos, siempre que asegure el acceso pleno.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | La proporcionalidad reconoce que cada persona es única, por lo que las respuestas deben adaptarse a cada situación.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Aunque existen estrategias recomendadas según el tipo de discapacidad, no hay soluciones universales ni manuales rígidos.
           div(titulo="3.	Igualdad")
-            ul.lista-ul
+            ul.lista-ul.ms-4
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | No significa aplicar las mismas medidas para todas las personas, sino permitir que cada persona con discapacidad elija la estrategia más adecuada para ejercer sus derechos.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | La igualdad se traduce en un trato digno, en la posibilidad de comprender los procesos que se llevan a cabo y en la garantía de autonomía y toma de decisiones informadas.
     p.mb-4 En coherencia con lo anterior, es importante distinguir entre los ajustes razonables y los ajustes procesales.
     
@@ -95,13 +95,13 @@
         h5.text-center Ajustes procesales
         ul.lista-ul 
           li 
-            i.lista-ul__vineta
+            i.fas.fa-circle(style="top: 8px;")
             | Se aplican en contextos judiciales o administrativos.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-circle(style="top: 8px;")
             | Incluyen adaptar entrevistas, audiencias o espacios legales para que las personas con discapacidad comprendan y participen plenamente en los procedimientos.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-circle(style="top: 8px;")
             | Tienen como finalidad asegurar la participación sin depender de terceras personas.
     
     .row.justify-content-center.align-items-center
@@ -109,7 +109,7 @@
         figure
           img.img-fluid(src="@/assets/curso/temas/tema2/img7.svg" alt="Imagen decorativa")
       .col-lg-7(data-aos="zoom-in")
-        p A continuación, se presentarán ejemplos de ajustes razonables según el tipo de discapacidad, que —según la experiencia del Programa de Atención a Personas con Discapacidad de la Universidad de Antioquia— son útiles para procesos de valoración de apoyos o en general para el trabajo con personas con discapacidad.
+        p A continuación, se presentarán ejemplos de ajustes razonables según el tipo de discapacidad, que — según la experiencia del Programa de Atención a Personas con Discapacidad de la Universidad de Antioquia — son útiles para procesos de valoración de apoyos o en general para el trabajo con personas con discapacidad.
         p.mb-0 Es fundamental recordar que la #[b valoración de apoyos no se aplica de manera universal], sino que debe evaluarse en cada caso concreto si es necesaria y pertinente.
         
     separador
@@ -187,26 +187,26 @@
       .col-lg-8.order-2.order-lg-1.mb-4.mb-lg-0
         .bloque-texto-c.color-primario.p-4
           ul.lista-ul 
-            li.mb--44 
-              i.lista-ul__vineta
+            li.mb--3 
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Uso de sistema braille.
-            li.mb--44
-              i.lista-ul__vineta
+            li.mb--3
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Lectores de pantalla.
-            li.mb--44
-              i.lista-ul__vineta
+            li.mb--3
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Tipografía en formato macrotipo.
-            li.mb--44
-              i.lista-ul__vineta
+            li.mb--3
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 <em>Software</em> que permita aumentar el tamaño de las imágenes.
-            li.mb--44
-              i.lista-ul__vineta
+            li.mb--3
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Contraste adecuado entre el color de la letra y el fondo, especialmente para personas con baja visión.
-            li.mb--44
-              i.lista-ul__vineta
+            li.mb--3
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Audiodescripción en contenidos audiovisuales.
-            li.mb--44
-              i.lista-ul__vineta
+            li.mb--3
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Descripción de imágenes en los pies de página o en textos alternativos.
 
       .col-lg-4.col-6.order-1.order-lg-2.mb-4.mb-lg-0
@@ -233,20 +233,20 @@
                 img.img-fluid(src="@/assets/curso/temas/tema2/img17.svg" alt="Imagen decorativa")
             .col-lg-10
               ul.lista-ul.mb-0
-                li.mb--44
-                  i.lista-ul__vineta
+                li.mb--3
+                  i.fas.fa-circle(style="top: 8px;")
                   p.text-bold.mb-0 Modelo lingüístico adaptado a las necesidades comunicativas de la persona.
-                li.mb--44
-                  i.lista-ul__vineta
+                li.mb--3
+                  i.fas.fa-circle(style="top: 8px;")
                   p.text-bold.mb-0 Guía-intérprete o mediación especializada en sordoceguera.
-                li.mb--44
-                  i.lista-ul__vineta
+                li.mb--3
+                  i.fas.fa-circle(style="top: 8px;")
                   p.text-bold.mb-0 Explicaciones mediante el uso de objetos tridimensionales.
-                li.mb--44
-                  i.lista-ul__vineta
+                li.mb--3
+                  i.fas.fa-circle(style="top: 8px;")
                   p.text-bold.mb-0 Sistema braille.
-                li.mb--44
-                  i.lista-ul__vineta
+                li.mb--3
+                  i.fas.fa-circle(style="top: 8px;")
                   p.text-bold.mb-0 Materiales y apoyos en alto relieve.
         p.mb-0 En cuanto a los ajustes procesales, si la persona presenta únicamente discapacidad visual, no existirían barreras legales que justifiquen la realización de una valoración de apoyos ni otros procedimientos que cuestionen el ejercicio de su capacidad jurídica.
 
@@ -322,20 +322,20 @@
       .col-lg-8.mb-4.mb-lg-0
         .bloque-texto-c.color-primario-medio.p-4
           ul.lista-ul 
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Disponer de un espacio tranquilo, sin ruidos y con iluminación adecuada.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Utilizar un tono de voz calmado y una forma de comunicación pausada.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Emplear lenguaje claro y accesible.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Incorporar materiales en lectura fácil.
-            li.mb--44
-              i.lista-ul__vineta
+            li
+              i.fas.fa-circle(style="top: 8px;")
               p.text-bold.mb-0 Apoyar las explicaciones con pictogramas, imágenes ilustrativas u objetos tridimensionales.
            
     .row.justify-content-center.align-items-center

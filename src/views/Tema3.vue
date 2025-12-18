@@ -61,37 +61,37 @@
             P Entre estos se encuentran:
             ul.lista-ul  
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Tableros de comunicación.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Uso de gráficos.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Sintetizadores de voz.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Comunicación gestual.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Otros dispositivos tecnológicos que fortalecen la autonomía.
           div(titulo="Recursos comunicativos")
             p Incluyen herramientas como:
             ul.lista-ul 
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 p.mb-0 #[i Software] lector de pantalla.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Amplificadores de voz.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Tabletas.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Amplificadores de imagen.
               li.mb--44
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 | Otros dispositivos que facilitan la interacción y el acceso a la información.
 
 
@@ -178,35 +178,71 @@
       .row(titulo="Discapacidad visual")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td
-                    ul.lista-ul  
-                      li 
-                        i.lista-ul__vineta
-                        |  Adaptación de material auditivo y táctil.
-                      li 
-                        i.lista-ul__vineta
-                        |  Permitir el acceso a herramientas tiflotecnológicas.
-                      li 
-                        i.lista-ul__vineta
-                        |  Señalización en braille.
-                      li 
-                        i.lista-ul__vineta
-                        |  El contenido gráfico y escrito debe describirse verbalmente.
-                      li 
-                        i.lista-ul__vineta
-                        | Evitar interponer objetos u otros que obstruyan la movilidad de personas con discapacidad visual.
-                  td #[i Software] como lectores y magnificadores de pantalla (Jaws, Lupa, ZoomText, Orca, Magic, entre otros).
-                  td Braille Macrotipo (letra en mayor tamaño y con tinta en contraste).
-                  td Bastón guía para la orientación y la movilidad. Lentes o lupas.
+            .movil
+              table(style="width: 100%")
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Adaptación de material auditivo y táctil.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Permitir el acceso a herramientas tiflotecnológicas.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Señalización en braille.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  El contenido gráfico y escrito debe describirse verbalmente.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Evitar interponer objetos u otros que obstruyan la movilidad de personas con discapacidad visual.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td #[i Software] como lectores y magnificadores de pantalla (Jaws, Lupa, ZoomText, Orca, Magic, entre otros).
+                  tr
+                    th Medio de escritura
+                  tr
+                    td Braille Macrotipo (letra en mayor tamaño y con tinta en contraste).
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td Bastón guía para la orientación y la movilidad. Lentes o lupas.
+            .desktop
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Adaptación de material auditivo y táctil.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Permitir el acceso a herramientas tiflotecnológicas.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Señalización en braille.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  El contenido gráfico y escrito debe describirse verbalmente.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Evitar interponer objetos u otros que obstruyan la movilidad de personas con discapacidad visual.
+                    td #[i Software] como lectores y magnificadores de pantalla (Jaws, Lupa, ZoomText, Orca, Magic, entre otros).
+                    td Braille Macrotipo (letra en mayor tamaño y con tinta en contraste).
+                    td Bastón guía para la orientación y la movilidad. Lentes o lupas.
           .row.justify-content-center.align-items-center
             .col-lg-4
               figure
@@ -216,22 +252,22 @@
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Hablar siempre dirigiendo la mirada a su cara.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Dirigirse directamente a la persona con discapacidad, no a su acompañante.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Identificarse con su nombre para que tenga claro quién le está hablando.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |  Para saludarle, toque su mano y hágalo normalmente. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |  Describir el lugar donde la persona estará e indíquele si hay más personas presentes. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Para guiar a la persona, ofrézcale su brazo y camine un paso delante de	ella.
 
               .titulo3.mb-3
@@ -261,43 +297,87 @@
       .row(titulo="Discapacidad auditiva")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td
-                    ul.lista-ul  
-                      li 
-                        i.lista-ul__vineta
-                        |   Uso de herramientas tecnológicas como dispositivos de ayuda auditiva, teléfonos inteligentes, aplicaciones, entre otras.
-                      li 
-                        i.lista-ul__vineta
-                        |   Recurrir al lenguaje facial y corporal.
-                      li 
-                        i.lista-ul__vineta
-                        |   Tener el recurso del intérprete de lengua de señas colombiana cuando la persona es sordo señante.
-                      li 
-                        i.lista-ul__vineta
-                        |  Acceder a los recursos que ofrecen los sistemas aumentativos y alternativos de comunicación.
+            .movil
+              table
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Uso de herramientas tecnológicas como dispositivos de ayuda auditiva, teléfonos inteligentes, aplicaciones, entre otras.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Recurrir al lenguaje facial y corporal.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Tener el recurso del intérprete de lengua de señas colombiana cuando la persona es sordo señante.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Acceder a los recursos que ofrecen los sistemas aumentativos y alternativos de comunicación.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td Lengua de señas colombiana (alfabeto dactilológico).
+                  tr
+                    th Medio de escritura
+                  tr
+                    td Lengua de señas colombiana (alfabeto dactilológico).
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td 
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Tableros de comunicación como pictogramas.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Audífonos.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Implantes cocleares o sistemas de frecuencia modulada, entre otros.
+                    
+            .desktop
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Uso de herramientas tecnológicas como dispositivos de ayuda auditiva, teléfonos inteligentes, aplicaciones, entre otras.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Recurrir al lenguaje facial y corporal.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Tener el recurso del intérprete de lengua de señas colombiana cuando la persona es sordo señante.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Acceder a los recursos que ofrecen los sistemas aumentativos y alternativos de comunicación.
 
-                  td Lengua de señas colombiana (alfabeto dactilológico).
-                  td Lengua de señas colombiana (alfabeto dactilológico).
-                  td 
-                    ul.lista-ul  
-                      li 
-                        i.lista-ul__vineta
-                        | Tableros de comunicación como pictogramas.
-                      li 
-                        i.lista-ul__vineta
-                        | Audífonos.
-                      li 
-                        i.lista-ul__vineta
-                        | Implantes cocleares o sistemas de frecuencia modulada, entre otros.
+                    td Lengua de señas colombiana (alfabeto dactilológico).
+                    td Lengua de señas colombiana (alfabeto dactilológico).
+                    td 
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Tableros de comunicación como pictogramas.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Audífonos.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Implantes cocleares o sistemas de frecuencia modulada, entre otros.
 
           .row.justify-content-center.align-items-center
             .col-lg-4
@@ -308,28 +388,28 @@
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Reconocer que las personas no son iguales comunicativamente.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Si la persona es sordo señante, usar la lengua de señas o solicitar apoyo de un intérprete de lengua de señas colombiana.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Si en la conversación hay un intérprete de lengua de señas, hable con un ritmo y tono de voz natural.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Hablarle directamente a la persona sorda y no al intérprete.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Las personas que utilizan el español hablado como medio de intercambio social, requieren de apoyo visual para precisar la comprensión de los mensajes.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Si el sordo es oralizado, háblele con claridad y a un ritmo normal. Module sin exagerar.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Si desea llamar su atención prenda y apague la luz o mueva sus manos.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | No todas las personas sordas tienen buen uso del español, por lo tanto, escribir o entregar textos escritos no siempre garantiza el acceso a la comunicación, si ha de utilizarse, deben ser textos adaptados, con lenguaje sencillo que faciliten la comprensión.
 
               .titulo3.mb-3
@@ -358,25 +438,51 @@
       .row(titulo="Discapacidad física")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td
-                    ul.lista-ul  
-                      li 
-                        i.lista-ul__vineta
-                        |  Adecuación de espacios que faciliten el desplazamiento y la movilidad.
-                  td Palabras impresas o manuscritas.
-                  td En caso de ser necesario, tener asistencia para el diligenciamiento de respuestas requeridas,  tanto escrito como verbales.
-                  td 
-                    p Prótesis, órtesis, sillas de ruedas, bastones, caminadores o muletas, entre otros. 
-                    p.mb-0 En algunos casos requiere del apoyo de otra persona.
+            .movil
+              table
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Adecuación de espacios que faciliten el desplazamiento y la movilidad.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td Palabras impresas o manuscritas.
+                  tr
+                    th Medio de escritura
+                  tr
+                    td En caso de ser necesario, tener asistencia para el diligenciamiento de respuestas requeridas,  tanto escrito como verbales.
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td 
+                      p Prótesis, órtesis, sillas de ruedas, bastones, caminadores o muletas, entre otros. 
+                      p.mb-0 En algunos casos requiere del apoyo de otra persona.
+            .desktop
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Adecuación de espacios que faciliten el desplazamiento y la movilidad.
+                    td Palabras impresas o manuscritas.
+                    td En caso de ser necesario, tener asistencia para el diligenciamiento de respuestas requeridas,  tanto escrito como verbales.
+                    td 
+                      p Prótesis, órtesis, sillas de ruedas, bastones, caminadores o muletas, entre otros. 
+                      p.mb-0 En algunos casos requiere del apoyo de otra persona.
 
           .row.justify-content-center.align-items-center
             .col-lg-4
@@ -387,31 +493,31 @@
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Para dirigirse a la persona, sitúese a su misma altura y delante de ella.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Hablarle siempre a la persona, no a su acompañante.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Si va a mover la silla de ruedas, debe advertirle, con anterioridad, de la maniobra que se va a realizar.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   La silla de ruedas es parte de su espacio personal, no se apoye ni la mueva sin su permiso.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Asegúrese que las muletas, el bastón o cualquier tipo de tecnología de apoyo, estén al lado de la persona. No la retire sin pedirle permiso.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Cuando la persona con discapacidad física, tenga además, un componente de dificultad para articular las palabras, se le pide que escriba o utilice una forma alternativa de comunicación como sintetizadores de voz u otra tecnología que ya utilice la persona y lleve consigo.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Si es una persona de talla baja, ubique un banquito pequeño al lado de la silla para que se le facilite sentarse en esta.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Asegúrese de ubicar los objetos a su altura.
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Evite poner objetos que limiten su desplazamiento por el espacio.
 
               .titulo3.mb-3
@@ -427,33 +533,65 @@
       .row(titulo="Discapacidad intelectual")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td
-                    ul.lista-ul  
-                      li 
-                        i.lista-ul__vineta
-                        | Uso de sistemas aumentativos y alternativos de la comunicación (pictogramas, palabras, gestos, imágenes).
-                      li 
-                        i.lista-ul__vineta
-                        | Promover procesos de atención y memoria.
-                  td 
-                    p Según nivel de dificultad que presente la persona.
-                    p De menor complejidad leen palabras impresas o manuscritas.
-                    p.mb De alta complejidad no alcanzan a descifrar el código escrito.
+            .movil
+              table
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Uso de sistemas aumentativos y alternativos de la comunicación (pictogramas, palabras, gestos, imágenes).
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Promover procesos de atención y memoria.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td 
+                      p Según nivel de dificultad que presente la persona.
+                      p De menor complejidad leen palabras impresas o manuscritas.
+                      p.mb De alta complejidad no alcanzan a descifrar el código escrito.
+                  tr
+                    th Medio de escritura
+                  tr
+                    td 
+                      p En personas con menor complejidad, la lectura es lenta, en ocasiones requiere de asistencia para completar y comprender la lectura.
+                      p.mb-0 Las personas de mayor complejidad no alcanzan la destreza de la lectura.
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td No aplica
+            .desktop  
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Uso de sistemas aumentativos y alternativos de la comunicación (pictogramas, palabras, gestos, imágenes).
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Promover procesos de atención y memoria.
+                    td 
+                      p Según nivel de dificultad que presente la persona.
+                      p De menor complejidad leen palabras impresas o manuscritas.
+                      p.mb De alta complejidad no alcanzan a descifrar el código escrito.
 
-                  td 
-                    p En personas con menor complejidad, la lectura es lenta, en ocasiones requiere de asistencia para completar y comprender la lectura.
-                    p.mb-0 Las personas de mayor complejidad no alcanzan la destreza de la lectura.
+                    td 
+                      p En personas con menor complejidad, la lectura es lenta, en ocasiones requiere de asistencia para completar y comprender la lectura.
+                      p.mb-0 Las personas de mayor complejidad no alcanzan la destreza de la lectura.
 
-                  td No aplica
+                    td No aplica
           .row.justify-content-center.align-items-center
             .col-lg-4
               figure
@@ -463,28 +601,28 @@
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Las personas con limitación en el aprendizaje procesan la información y responden a las preguntas de forma más lenta.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Utilizar frases cortas y claras.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Actuar de manera natural en la forma de hablar, emplee un lenguaje simple y conciso.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Trate a la persona como adulta, no como sui fuese un niño o niña.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Darle más tiempo para responder a las preguntas. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Procure no ayudarle en exceso.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Tómese el tiempo necesario para entender a la persona y asegúrese que ella le está entendiendo.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Diríjase siempre a la persona con discapacidad intelectual, no a su acompañante.
 
               .titulo3.mb-3
@@ -505,32 +643,65 @@
       .row(titulo="Sordociegos")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td
-                    ul.lista-ul  
-                      li
-                        i.lista-ul__vineta
-                        |   Utilizar texturas y materiales que estimulen los sentidos, y a través de estos recursos generar códigos de comunicación entre sí.
-                      li
-                        i.lista-ul__vineta
-                        |   Reconocimiento de emociones a través del lenguaje corporal.
-                      li
-                        i.lista-ul__vineta
-                        |   Las conductas disruptivas son la forma de expresar dolor, angustia, miedo y otros.
-                      li
-                        i.lista-ul__vineta
-                        |  Implementar el sentido del tacto y uso de la lengua de señas.
-                  td Guía- intérprete.
-                  td Guía- intérprete.
-                  td Algunas personas pueden utilizar el bastón guía para la orientación y la movilidad. Lentes o lupas.
+            .movil
+              table
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td
+                      ul.lista-ul  
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Utilizar texturas y materiales que estimulen los sentidos, y a través de estos recursos generar códigos de comunicación entre sí.
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Reconocimiento de emociones a través del lenguaje corporal.
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Las conductas disruptivas son la forma de expresar dolor, angustia, miedo y otros.
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Implementar el sentido del tacto y uso de la lengua de señas.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td Guía- intérprete.
+                  tr
+                    th Medio de escritura
+                  tr
+                    td Guía- intérprete.
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td Algunas personas pueden utilizar el bastón guía para la orientación y la movilidad. Lentes o lupas.
+            .desktop
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td
+                      ul.lista-ul  
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Utilizar texturas y materiales que estimulen los sentidos, y a través de estos recursos generar códigos de comunicación entre sí.
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Reconocimiento de emociones a través del lenguaje corporal.
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |   Las conductas disruptivas son la forma de expresar dolor, angustia, miedo y otros.
+                        li
+                          i.fas.fa-circle(style="top: 8px;")
+                          |  Implementar el sentido del tacto y uso de la lengua de señas.
+                    td Guía- intérprete.
+                    td Guía- intérprete.
+                    td Algunas personas pueden utilizar el bastón guía para la orientación y la movilidad. Lentes o lupas.
           .row.justify-content-center.align-items-center
             .col-lg-4
               figure
@@ -540,19 +711,19 @@
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Preguntar por el sistema comunicativo que la persona sordociega utiliza.   
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | La persona sordociega requiere que se le brinde información sobre lo que sucede en su entorno, a través de un guía- interprete.   
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Al relacionar se debe tocar suavemente su hombro o su brazo y decirle quién es antes de iniciar una conversación, incluso se vuelve a hacer después de una interrupción.    
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Debe saludar siempre y despedirse de ella cuando se retira.   
                 li.mb--44
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Algunas personas tienen remanente visual y requieren que el interlocutor(a) se coloque enfrente de ellas, a la altura de sus ojos y muy cerca de su cara. 
               .titulo3.mb-3
                 h5.mb-0 Enlace de acceso a las herramientas
@@ -566,28 +737,56 @@
       .row(titulo="Discapacidad psicosocial")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td
-                    ul.lista-ul  
-                      li 
-                        i.lista-ul__vineta
-                        | Disponer de un lapso favorable, sin ocasionar estrés o ansiedad.
-                      li 
-                        i.lista-ul__vineta
-                        | Sensibilizar a las demás personas sobre la discapacidad psicosocial y a su vez promover el apoyo y acompañamiento cuando las personas lo requieren.
-                      
+            .movil
+              table
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Disponer de un lapso favorable, sin ocasionar estrés o ansiedad.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Sensibilizar a las demás personas sobre la discapacidad psicosocial y a su vez promover el apoyo y acompañamiento cuando las personas lo requieren.
 
-                  td Palabras impresas o manuscritas.
-                  td Alcanzan la destreza de la lectura escrita o impresa.
-                  td No aplica.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td Palabras impresas o manuscritas.
+                  tr
+                    th Medio de escritura
+                  tr
+                    td Alcanzan la destreza de la lectura escrita o impresa.
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td No aplica.
+            .desktop
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td
+                      ul.lista-ul  
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Disponer de un lapso favorable, sin ocasionar estrés o ansiedad.
+                        li 
+                          i.fas.fa-circle(style="top: 8px;")
+                          | Sensibilizar a las demás personas sobre la discapacidad psicosocial y a su vez promover el apoyo y acompañamiento cuando las personas lo requieren.
+                        
+
+                    td Palabras impresas o manuscritas.
+                    td Alcanzan la destreza de la lectura escrita o impresa.
+                    td No aplica.
           .row.justify-content-center.align-items-center
             .col-lg-4
               figure
@@ -597,19 +796,19 @@
                 h5.mb-0 Mínimos para el acercamiento con las personas
               ul.lista-ul  
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Algunas personas usan medicamento psiquiátrico, y otras, usan tratamientos alternativos	para permanecer emocionalmente estables.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   |   Actuar de manera natural con las personas empleando  un lenguaje igual al que emplea con	los y las demás.
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Las personas con discapacidad psicosocial no permanecen en crisis. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Demostrar un trato digno y respetuoso, evitando hacer señalamientos por conductas, movimientos, expresiones, gestos entre otras. La comunicación debe ser abierta y respetuosa. 
                 li 
-                  i.lista-ul__vineta
+                  i.fas.fa-circle(style="top: 8px;")
                   | Generar un ambiente de cercanía, calidez y confianza para asegurar la efectividad en el proceso.
 
               .titulo3.mb-3
@@ -624,21 +823,43 @@
       .row(titulo="Discapacidad múltiple")
         .col-12
           .tabla-a.color-primario.mb-4
-            table
-              thead
-                tr
-                  th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
-                  th Medio de lectura
-                  th Medio de escritura
-                  th Productos de apoyo
-              tbody
-                tr
-                  td 
-                    p Tener en cuenta las recomendaciones escritas en cada tipo de discapacidad, que corresponda a las discapacidades y necesidades de la persona, que al ser múltiple se deben considerar de manera simultánea
-                    p Identificar si hay prevalencia en una de las discapacidades.
-                  td Según las discapacidades y necesidades de la persona y si hay alguna prevalencia en una de ellas.
-                  td Según las discapacidades y necesidad es de la persona y si hay alguna prevalencia en una de ellas.
-                  td Según las discapacidad y necesidades de la persona y si hay alguna prevalencia en una de ellas.
+            .movil
+              table
+                thead
+                  tr
+                    th Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                  tr
+                    td 
+                      p Tener en cuenta las recomendaciones escritas en cada tipo de discapacidad, que corresponda a las discapacidades y necesidades de la persona, que al ser múltiple se deben considerar de manera simultánea.
+                      p Identificar si hay prevalencia en una de las discapacidades.
+                  tr
+                    th Medio de lectura
+                  tr
+                    td Según las discapacidades y necesidades de la persona y si hay alguna prevalencia en una de ellas.
+                  tr
+                    th Medio de escritura
+                  tr
+                    td Según las discapacidades y necesidad es de la persona y si hay alguna prevalencia en una de ellas.
+                  tr
+                    th Productos de apoyo
+                  tr
+                    td Según las discapacidad y necesidades de la persona y si hay alguna prevalencia en una de ellas.
+            .desktop
+              table
+                thead
+                  tr
+                    th(style="width: 553px") Ajustes razonables: tecnológicos, comunicativo, pedagógicos
+                    th Medio de lectura
+                    th Medio de escritura
+                    th Productos de apoyo
+                tbody
+                  tr
+                    td 
+                      p Tener en cuenta las recomendaciones escritas en cada tipo de discapacidad, que corresponda a las discapacidades y necesidades de la persona, que al ser múltiple se deben considerar de manera simultánea.
+                      p Identificar si hay prevalencia en una de las discapacidades.
+                    td Según las discapacidades y necesidades de la persona y si hay alguna prevalencia en una de ellas.
+                    td Según las discapacidades y necesidad es de la persona y si hay alguna prevalencia en una de ellas.
+                    td Según las discapacidad y necesidades de la persona y si hay alguna prevalencia en una de ellas.
           .row.justify-content-center.align-items-center
             .col-lg-4
               figure

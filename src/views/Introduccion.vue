@@ -17,18 +17,18 @@
             figure
               img(src='@/assets/curso/temas/intro/img1.svg', alt='Imagen decorativa')
           .col-lg-10
-            ul.mb-0.lista-ul
+            ul.lista-ul
               li
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 p.mb-0.text-bold ¿Qué implica el derecho a la accesibilidad?
               li
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 p.mb-0.text-bold ¿Qué ajustes razonables pueden aplicarse durante la valoración de apoyos, según el tipo de discapacidad y las necesidades de cada persona?
               li
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 p.mb-0.text-bold ¿Con qué herramientas cuenta una persona facilitadora para llevar a cabo este proceso?
               li
-                i.lista-ul__vineta
+                i.fas.fa-circle(style="top: 8px;")
                 p.mb-0.text-bold ¿Qué formatos deben utilizarse?
 
         p Estos aspectos serán abordados en el presente material formativo, cuyo propósito es ofrecer herramientas prácticas y pertinentes para realizar procesos de valoración de apoyos a personas con discapacidad dentro de las instituciones. Esto permitirá proponer ajustes razonables y acciones concretas que contribuyan a garantizar su autonomía, fortalecer su autodeterminación y promover el ejercicio pleno de sus derechos.
