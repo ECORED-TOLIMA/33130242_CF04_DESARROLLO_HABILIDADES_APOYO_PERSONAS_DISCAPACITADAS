@@ -428,27 +428,12 @@ export default {
         {
           id: 13,
           texto:
-            'El derecho a la accesibilidad es un derecho humano que se fundamenta en los siguientes principios:',
+            'El derecho a la accesibilidad se fundamenta en los principios de universalidad, indivisibilidad e interdependencia, progresividad, igualdad y no discriminación.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Principio de universalidad.', esCorrecta: true },
-            {
-              id: 'b',
-              texto: 'Principio de indivisibilidad e interdependencia.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto:
-                'Principio de progresividad, igualdad y no discriminación.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Principio de igualdad y no discriminación.',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',
@@ -458,34 +443,12 @@ export default {
         {
           id: 14,
           texto:
-            'Luego de identificar necesidades específicas y contar con orientaciones, ¿qué acciones podrían aplicarse al entrevistar una persona con discapacidad intelectual grave para evaluar motivaciones y proyecto de vida?',
+            'Al entrevistar a una persona con discapacidad intelectual grave, es adecuado asegurar la accesibilidad de los materiales, utilizar lenguaje claro y herramientas visuales, verificar la comprensión y explorar sus intereses, motivaciones y apoyos necesarios.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto:
-                'Asegurar la accesibilidad de los materiales cuando no sabe leer ni escribir, usando videos, pictogramas e imágenes visuales claras y comprensibles.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto:
-                'Diseñar preguntas accesibles con lenguaje concreto y sencillo, usando imágenes o símbolos en papel bond, una pregunta por hoja.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto:
-                'Verificar la comprensión confirmando que la respuesta sea coherente. Si hay confusión, pedir explicación con sus propias palabras para validar.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto:
-                'Explorar sueños, intereses y apoyos necesarios utilizando herramientas para identificar motivaciones, metas, gustos y objetivos de la persona entrevistada.',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
             'Excelente trabajo. Tiene un claro entendimiento del componente.',

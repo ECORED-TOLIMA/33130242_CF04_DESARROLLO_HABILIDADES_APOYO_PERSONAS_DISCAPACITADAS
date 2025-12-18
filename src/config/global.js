@@ -61,7 +61,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Principios de igualdad y no discriminación.',
+            titulo: 'Principio de igualdad y no discriminación.',
             hash: 't_1_5',
           },
         ],
