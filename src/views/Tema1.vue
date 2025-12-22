@@ -244,10 +244,9 @@
         figure
           img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen') 
 
-
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-left")
-      h2 1.5	Principios de igualdad y no discriminación
+      h2 1.5    Principios de igualdad y no discriminación
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-9.order-2.order-lg-1.mb-4.mb-lg-0
         .row.justify-content-center.mb-4
