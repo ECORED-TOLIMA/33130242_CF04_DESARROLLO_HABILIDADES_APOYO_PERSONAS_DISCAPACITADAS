@@ -61,7 +61,7 @@ export default {
           },
           {
             numero: '1.5',
-            titulo: 'Principio de igualdad y no discriminación.',
+            titulo: 'Principios de igualdad y no discriminación.',
             hash: 't_1_5',
           },
         ],
@@ -335,7 +335,7 @@ export default {
       autores: [
         {
           nombre: 'Leidy Castillo Pérez',
-          cargo: 'Experto temática',
+          cargo: 'Experta temática',
           centro: 'Universidad de Antioquia ',
         },
         {
@@ -345,12 +345,12 @@ export default {
         },
         {
           nombre: 'Mary Blanca Ángel Franco ',
-          cargo: 'Experto temática',
+          cargo: 'Experta temática',
           centro: 'Universidad de Antioquia ',
         },
         {
           nombre: 'Martha Cecilia Builes Alzate ',
-          cargo: 'Experto temática',
+          cargo: 'Experta temática',
           centro: 'Universidad de Antioquia ',
         },
         {
