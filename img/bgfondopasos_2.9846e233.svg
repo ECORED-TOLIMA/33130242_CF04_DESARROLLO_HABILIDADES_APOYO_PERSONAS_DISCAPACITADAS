@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1329" height="600" viewBox="0 0 1329 600">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.541" y1="0.874" x2="0.54" y2="0.417" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f2efdf"/>
+      <stop offset="1" stop-color="#f2efdf" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_455332" data-name="Rectangle 455332" width="1329" height="600" transform="translate(135.711 8222)" fill="#f8efea"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_402003" data-name="Rectangle 402003" width="1478.043" height="620.033" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.535" y1="0.645" x2="0.539" y2="1.061" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="bgfondopasos_2" transform="translate(-135.711 -8246)">
+    <rect id="Rectangle_454075" data-name="Rectangle 454075" width="1329" height="600" transform="translate(135.711 8246)" fill="#f8efea"/>
+    <g id="Mask_Group_1099034" data-name="Mask Group 1099034" transform="translate(0 24)" clip-path="url(#clip-path)">
+      <g id="Mask_Group_1098720" data-name="Mask Group 1098720" transform="translate(60.979 7976.596)" opacity="0.5" clip-path="url(#clip-path-2)">
+        <path id="Path_874343" data-name="Path 874343" d="M1479.116,681.752s-62.239-34.872-142.366-48.757c-81.512-13.886-162.633-26.225-237.661-22.874-76.414,1.888-195.36,14.872-272.273,32.642s-281.5,59.955-344.571,71.548c-63.069,10.129-122.9,19.8-243.465,14.326S20.611,708.337,0,692.416V138.927s90.719-26.463,150.75-35.815C209.4,93.759,376.274,90.84,519.164,117.763c117.581,22.37,287.075-17.78,391.728-1.294,15.192,2.393,279.253,13.393,350.484,2.778,69.847-10.616,194.737-4.556,217.741-16.136Z" transform="translate(-0.647 -110.7)" fill-rule="evenodd" fill="url(#linear-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>
